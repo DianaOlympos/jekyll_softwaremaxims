@@ -3,20 +3,19 @@ custom_css: blog_post
 ---
 You have at least one passionate friend. Many even. Maybe are you passionate yourself. It does not matter what the focus of that passion is. <!--more-->
 
-It is easy to figure out which of your friend is passionate about a topic. All you need to do is to talk about that topic. State an opinion on it. If your opinion is about one of their passion, they will turn into *that* person. You know what i am talking about. They will transform what was an evening out into an evening dedicated to that topic. Which bring us to this post. As my friends says, I tend to have strong opinions. Which come in part from the passion i hold about some of the topics i have strong opinions about. Long story short, I care about some topics around software and society. I think they matter. Two particularly sensitive one are *testing* software and *systems safety*.[[1]](#fn1){:#ref1}
+It is easy to figure out which of your friend is passionate about a topic. All you need to do is to talk about that topic. State an opinion on it. If your opinion is about one of their passion, they will turn into *that* person. You know what i am talking about. They will transform what was an evening out into an evening dedicated to that topic. Which bring us to this post. As my friends says, I tend to have strong opinions. Which come in part from the passion i hold about some of the topics i have strong opinions about. Long story short, I care about some topics around software and society. I think they matter. Two particularly sensitive one are *testing* software and *systems safety*.[^1]
 
 [Feel free to open this playlist in the background while reading this post](https://open.spotify.com/user/diana_olympos/playlist/4Av7q8mhBAqlOSWVesq8VM?si=VxdVsgclRuqvDvu5ro5byQ)
 
 So a few days ago, i was going through my twitter timeline and i saw this tweet.
 
-<blockquote class="twitter-tweet" data-lang="en" data-dnt="true"><p lang="en" dir="ltr">&quot;It&#39;s just business software.&quot;<br><br>&quot;Nobody dies if we get it wrong.&quot;<br><br>These are things people in tech really say to justify insufficient testing. <a href="https://t.co/0cDGhPm4xy">https://t.co/0cDGhPm4xy</a></p>&mdash; Continuous Devilry (@noahsussman) <a href="https://twitter.com/noahsussman/status/1055230475600621570?ref_src=twsrc%5Etfw">October 24, 2018</a></blockquote>
+{% twitter https://twitter.com/noahsussman/status/1055230475600621570 conversation=none dnt=true %}
 
 And as expected from a passionate person when it touch to the topic you care about, i turned into *that person*. 
 
-<blockquote class="twitter-tweet" data-lang="en" data-dnt="true"><p lang="en" dir="ltr">Not insufficient testing. Insufficient expertise. &quot;Yeah we know that could go wrong, but it would be painful to fix and we are *just* business software&quot; is something i hear far more than &quot;oh we could have caught that with test&quot;</p>&mdash; Diana (@Di4naO) <a href="https://twitter.com/Di4naO/status/1055580004359258119?ref_src=twsrc%5Etfw">October 25, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{% twitter https://twitter.com/Di4naO/status/1055580004359258119 conversation=none dnt=true %}
 
-I am not going to spend lot of time on the topic of testing today. I consider the set of practices and tooling that we cover with the label "testing" in software as neither particularly useful or efficient. Software practitioners can use their time better than in testing in the current state.[[2]](#fn2){:#ref2}
+I am not going to spend lot of time on the topic of testing today. I consider the set of practices and tooling that we cover with the label "testing" in software as neither particularly useful or efficient. Software practitioners can use their time better than in testing in the current state.[^2]
 
 ## Lie To Me
 
@@ -42,13 +41,13 @@ We can evaluate the criticality of the safety of our systems with two metrics re
 
 In this light, safety is essential for all software that see production. Software control, organise, optimise and underpin most of our organisations. Our society. We store in there personal information and use it to take decisions about our life everyday. After all, [Software is eating the World](https://a16z.com/2016/08/20/why-software-is-eating-the-world/). It gets even more obvious if the software accept any kind of personal data. A password and a username is enough. We know our users reuse these in multiple systems. It means that the impact of a single database of passwords leaking is enormous. It become an event with a potential infinite impact.  And these breaches do happen, to both small and big targets.
 
-The criticality of safety in software grows even more if you consider the professional environment we live in. Even if your code today is part of a non critical system, who knows about tomorrow ? A defining characteristic of software is that it is reused and re-purposed all the time. Bigger impact, if you release your software as Open Source. In that case, all bets are off. You can not know who will use it as inspiration or in what type of systems it will be used. Maybe your little toy logging framework will ends up breaking the routing service for 911 calls.[[3]](#fn3){:#ref3} Are you scared yet ?
+The criticality of safety in software grows even more if you consider the professional environment we live in. Even if your code today is part of a non critical system, who knows about tomorrow ? A defining characteristic of software is that it is reused and re-purposed all the time. Bigger impact, if you release your software as Open Source. In that case, all bets are off. You can not know who will use it as inspiration or in what type of systems it will be used. Maybe your little toy logging framework will ends up breaking the routing service for 911 calls.[^3] Are you scared yet ?
 
 OK, now I hope that you see the point of view i am coming from. You can totally disagree with it, but it gives you the background to follow my point on expertise. I think that part of our incapacity to understand the need for safety of our system lies in a lack of *expertise*. In expertise lies a necessary path to get out of that state of affair. Software is not an expert domain in term of practice yet, but that it is one in term of impact and complexity. Software build inherently complex systems. These systems are becoming safety critical and are dependent of supervision and corrective actions based on *in-context application of models*. These are usually characteristics of fields that need experts to thrive. Especially from a safety point of view.
 
 ## Come on in My Kitchen
 
-We can asses that someone is an expert if they posses ten psychological characteristics.[[4]](#fn4){:#ref4} They do not describe how to become an expert, but they have proven to be a necessary and sufficient set of discriminant criteria. These ten psychological characteristics are the following.
+We can asses that someone is an expert if they posses ten psychological characteristics.[^4] They do not describe how to become an expert, but they have proven to be a necessary and sufficient set of discriminant criteria. These ten psychological characteristics are the following.
 
 1. Experts have an extensive and up-to-date content knowledge. They know a lot and pride themselves in staying up with the latest developments in their field.
 2. Experts have highly developed perceptual/attention abilities. They can extract information that non-experts either overlook or are unable to extract.
@@ -85,12 +84,10 @@ These incidents do not happen because of insufficient training. They do not happ
 
 I can not give a perfect plan to get there. But i have hopes. Hopes in people engaging with the existing Resilience community in other fields. Hopes that i can learn about them. Hopes because the Resilience community is full of experts. Hopes that they understand that helping us to get there is also part of their responsibilities. Because this is how you make complex systems work well. By building expertise alongside your systems. I will end on a quote from one of my heroes.
 
-> We had risen to probably one of the greatest challenges in history, put a man on the moon in the decade. We'd created incredible technologies. But what was most important, we'd created the teams, what I call the human factor. People who were energized by a mission. And these teams were capable of moving right on and doing anything America asked them to do in space.[[5]](#fn5){:#ref5}
+> We had risen to probably one of the greatest challenges in history, put a man on the moon in the decade. We'd created incredible technologies. But what was most important, we'd created the teams, what I call the human factor. People who were energized by a mission. And these teams were capable of moving right on and doing anything America asked them to do in space.[^5]
 
----
-
-1. <span id="fn1">For completely different reasons that said.</span> [Back](#ref1)
-2. <span id="fn2">There is probably matters for its own blog post, but not today.</span> [Back](#ref2)
-3. <span id="fn3">This is based on a true story with some adaptation see [this FCC report.](https://www.fcc.gov/document/april-2014-multistate-911-outage-report).</span> [Back](#ref3) 
-4. <span id="fn4">James Shanteau, [The Psychology of Experts: An Alternative View (1992).](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.6027&rep=rep1&type=pdf)</span> [Back](#ref4)
-5. <span id="fn5">Gene Kranz, [Space Lifeguard: An Interview with Gene Kranz.](http://web.archive.org/web/20000818064509/http://www.space.com/peopleinterviews/apollo13_kranz_iview_000411.html)</span> [Back](#ref5)
+[^1]: For completely different reasons that said.
+[^2]: There is probably matters for its own blog post, but not today.
+[^3]: This is based on a true story with some adaptation see [this FCC report.](https://www.fcc.gov/document/april-2014-multistate-911-outage-report).<
+[^4]: James Shanteau, [The Psychology of Experts: An Alternative View (1992).](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.318.6027&rep=rep1&type=pdf)
+[^5]: Gene Kranz, [Space Lifeguard: An Interview with Gene Kranz.](http://web.archive.org/web/20000818064509/http://www.space.com/peopleinterviews/apollo13_kranz_iview_000411.html)

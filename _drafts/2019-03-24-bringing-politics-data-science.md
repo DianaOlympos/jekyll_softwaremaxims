@@ -24,7 +24,7 @@ And that is where my human factors sense begin to tingle. Yes, there is a tremen
 
 Any field or profession will evolve a set of cultural values. But these values all come from the same point: the social situation the field come from and the pressures and incentives it has to deal with. Form of feedbacks applies to agents or systems will drive and change how they act and in reaction their values. Trying to change a field set of values by having the agents in that field change their actions without changing the system they are in is at best an incredibly difficult task, at worst is going to destroy the agents and be corrected swiftly by the system.
 
-To come back to the paper, i do agree whole heartedly with the debunk of "excuses" given to avoid responsibilities in the recent controversies in Data Science. The same kind of excuses have been used in a wider CS context and my answers have been close to the one given by the paper. [[1]](#fn1){:#ref1}
+To come back to the paper, i do agree whole heartedly with the debunk of "excuses" given to avoid responsibilities in the recent controversies in Data Science. The same kind of excuses have been used in a wider CS context and my answers have been close to the one given by the paper. [^1]
 
 The difference is the learning to be taken from the wide use of these excuses and the number of controversies rising. The paper understand the learning being that the actors of the field need to wake up and nurture their political conscience. Mine is that the field is deeply lacking the form of feedback and embedding in the wider society that is needed to build accountability.
 
@@ -38,7 +38,7 @@ Some people may say i am pedant, but i think this is deeply important. Especiall
 
 The field is mostly oriented toward "building" things. Something the paper talk about in the incentives toward "novel contribution". The culture of CS is a culture of "the joy of building" or "the joy of creating". There is really few talks around the impacts of these solutions on people or the work needed to deploy a solution. This is left to others.
 
-This is not only a separation between "solutions searching for a problem" and "solving a problem". The field create tools and then *let others apply them to whatever problems they want*. That is a powerful force to generate experiments of course, but it is also highly problematic. It is the equivalent of making nuclear elements and letting anyone try anything with it. Want to put radium in your curative compress ? Hey why not, it may help with pain and other conditions. I suppose we will see in a decade or two.  [[2]](#fn2){:#ref2}
+This is not only a separation between "solutions searching for a problem" and "solving a problem". The field create tools and then *let others apply them to whatever problems they want*. That is a powerful force to generate experiments of course, but it is also highly problematic. It is the equivalent of making nuclear elements and letting anyone try anything with it. Want to put radium in your curative compress ? Hey why not, it may help with pain and other conditions. I suppose we will see in a decade or two.  [^2]
 
 ![image of a "standard radium preparation" advertising pain relief, fighting anemia, ...](/images/radio_compress.jpg)
 
@@ -62,7 +62,7 @@ I still think that this framework is onto something. We need to connect these fi
 
 We should be thankful for them. They, and their ally, are the practitioners that will have the internal drive to go through that process. They will also not be enough. To change deeply the way the field works, there is a need to harness their voice and power to change the way the structure that applies to the field. This would i think generate the reverse process to the field.
 
-Changing the structure will push resources toward new problems (Stage 3). That will bring practitioners to recognize the political drive behind their projects and actions (Stage 2). This reflection will raise their interest for what they do socially (Stage 1) or drive them out of the structures of the field. The reason i see this as reverted is that i think it is structural change that drive cultural change, not the other way around.  [[3]](#fn3){:#ref3}
+Changing the structure will push resources toward new problems (Stage 3). That will bring practitioners to recognize the political drive behind their projects and actions (Stage 2). This reflection will raise their interest for what they do socially (Stage 1) or drive them out of the structures of the field. The reason i see this as reverted is that i think it is structural change that drive cultural change, not the other way around.  [^3]
 
 All the examples the paper point of Stage 1 and 2 already happening struck me as highly niche and mostly explainable by the personal drivers i offered. At best, these are seen as "controversies", not incidents of breaking societies, putting life at risks or undermining Human Rights. The process offered by the paper is relevant, but to a far smaller subset of practitioners. To move the entire field toward one politically embedded in society, we need this subset to engage in action creating a reverse process of Stage 4 to Stage 1 for the field.
 
@@ -78,12 +78,11 @@ We need to work deeply at what are the systemic forces that keep pushing us in t
 
 _Thanks for this post goes to Ben Green [@benzevgreen](https://twitter.com/benzevgreen) for writing the paper, Os Keyes [@farbandish](https://twitter.com/farbandish) for the discussions and linking the paper._
 
----
-
-1. <span id="fn1">Even if i tend to cite far less paper and the paper is far better at explaining them</span> [Back](#ref1)
-2. <span id="fn2">I highly advise to search the benefit attributed to radium in the 20s, 30s and up to the 50s. It was quite something. It may remind you of the exact slogans used these days for ML and "AI". I wonder why.</span> [Back](#ref2)
-3. <span id="fn3">Even if there is a feedback in the other way around too</span> [Back](#ref3)
-
 source images:
+
 - [https://xkcd.com/1390/] [https://creativecommons.org/licenses/by-nc/2.5/](Creative Commons Attribution-NonCommercial 2.5 License)
 - [http://www.dissident-media.org/infonucleaire/radieux.html]
+
+[^1]: Even if i tend to cite far less paper and the paper is far better at explaining them
+[^2]: I highly advise to search the benefit attributed to radium in the 20s, 30s and up to the 50s. It was quite something. It may remind you of the exact slogans used these days for ML and "AI".I wonder why.
+[^3]Even if there is a feedback in the other way around too
