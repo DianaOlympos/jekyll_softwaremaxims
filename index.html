@@ -1,0 +1,21 @@
+---
+title: Musings about software
+---
+<div class="container">
+  <h1 class="page-title"> {{ page.title }} </h1>
+  <ul class="flex flex-col flex-nowrap justify-center items-center">
+    {% for post in site.posts %}
+    <li class="blog-card">
+      <div class="blog-card-text">
+        <a class="primary-link post-title-list" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <p>{{ post.date | date_to_string }}</p>
+        <p class="mt-4 mr-6 text-lg font-medium font-mono">
+          {{ post.excerpt }}
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

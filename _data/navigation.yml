@@ -1,0 +1,6 @@
+- name: Blog
+  link: /
+- name: Consulting
+  link: /consulting
+- name: About
+  link: /about

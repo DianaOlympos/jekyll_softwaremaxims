@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Software Maxims" />
+  <meta name="author" content="Thomas Depierre" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  {% if page.custom_css %}
+  {% for stylesheet in page.custom_css %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
+  {% endfor %}
+  {% endif %}
+</head>
+
+<body class="bg-black">
+  <div class="container mx-auto">
+    <header class="header">
+      {% include navigation.html %}
+    </header>
+
+    <main role="main">
+      {{ content }}
+    </main>
+
+  </div>
+</body>
+<footer class="container main-footer">
+  <p class="footer-text">If you have any comment or want to contact me, please use one of these.</p>
+  <ul class="footer-list">
+    <li class="footer-element"><a class="footer-link" href="https://twitter.com/Di4naO">Twitter</a></li>
+    <li class="footer-element"><a class="footer-link" href="https://github.com/DianaOlympos">GitHub</a></li>
+    <li class="footer-element"><a class="footer-link" href="mailto:depierre.thomas+softwaremaxims@gmail.com">Mail</a>
+    </li>
+  </ul>
+</footer>
+
+</html>

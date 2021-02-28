@@ -1,0 +1,17 @@
+<nav class="container">
+  <div class="header-title">
+    <a class="header-title-link" href="/">
+      Software Maxims
+    </a>
+  </div>
+  <ul class="navbar">
+    {% for item in site.data.navigation %}
+    <li class="navbar-container">
+      <a class="primary-link-inverted navbar-link {% if page.url == item.link or (item.name == "Blog" and page.collection == "posts") %} text-sky-40{% endif %}"
+        href="{{ item.link }}">
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

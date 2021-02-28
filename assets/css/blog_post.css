@@ -1,0 +1,77 @@
+---
+---
+
+/* This file is for your main application css. */
+
+@import styles.css;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-bold m-4 leading-tight;
+  }
+
+  h2 {
+    @apply text-2xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
+  }
+
+  h3 {
+    @apply text-xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
+  }
+
+  p {
+    @apply text-lg font-medium mx-6 my-1 leading-normal text-justify self-start;
+    letter-spacing: -.003em;
+  }
+
+  img {
+    @apply rounded-sm;
+    max-height: 200px;
+  }
+
+  a {
+    @apply text-sky-80 hover:text-bronze-40 underline hover:underline;
+  }
+
+  blockquote {
+    @apply text-lg italic;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  ul {
+    @apply my-4 ml-10 mr-16 self-start;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: theme('padding.4');
+    @apply my-4 ml-10 mr-16 self-start;
+  }
+
+  li {
+    @apply mt-1 text-lg font-medium leading-normal text-justify self-start;
+  }
+
+  pre {
+    @apply flex mx-16 my-2 self-stretch items-start;
+  }
+
+  strong {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .blogpost {
+    @apply flex flex-col flex-nowrap justify-center mx-auto text-black pb-3 bg-white border-4 border-black rounded-lg items-center mt-2;
+    max-width: 60rem;
+  }
+
+  .blogpost-header {
+    @apply self-end text-base text-gray-90;
+  }
+
+  .thin {
+    @apply border-b-2 border-sky-40 border-solid mx-6 w-16;
+  }
+}

@@ -1,0 +1,88 @@
+---
+---
+
+/* This file is for your main application css. */
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-title {
+    @apply flex items-center justify-center flex-wrap p-6 bg-sky-50;
+  }
+
+  .header-title-link {
+    @apply text-black text-4xl font-bold hover:text-bronze-80 no-underline hover:no-underline;
+  }
+
+  .header-section-title {
+    @apply text-2xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
+  }
+
+  .navbar {
+    @apply m-0 flex items-center justify-center flex-wrap border-b-2 border-bronze-40;
+  }
+
+  .navbar-container {
+    @apply p-4 my-0 mx-3 leading-normal text-justify self-start text-2xl;
+  }
+
+  .navbar-placeholder {
+    @apply text-white;
+  }
+
+  .navbar-link {
+    @apply font-bold;
+  }
+
+  .page-title {
+    @apply text-center font-bold my-3 mx-0 text-white text-4xl leading-normal;
+  }
+
+  .blog-card {
+    @apply flex bg-white p-4 rounded-lg m-2 mt-8 flex-wrap-reverse justify-center items-center;
+    width: auto;
+  }
+
+  .blog-card-text {
+    max-width: 600px;
+  }
+
+  .primary-link {
+    @apply text-white hover:text-bronze-60 hover:no-underline no-underline;
+  }
+
+  .primary-link-inverted {
+    @apply text-white hover:text-bronze-40 hover:no-underline no-underline;
+  }
+
+  .post-title-list {
+    @apply text-center text-3xl font-semibold text-black hover:underline;
+  }
+
+  .main-footer {
+    @apply bg-black text-white mx-auto self-center flex flex-col my-3;
+  }
+
+  .footer-text {
+    @apply mx-auto self-center text-center;
+  }
+
+  .footer-list {
+    @apply flex justify-center self-center my-1;
+  }
+
+  .footer-element {
+    @apply mx-3;
+  }
+
+  .footer-link {
+    @apply text-bronze-40 hover:text-sky-80;
+  }
+
+  .about-p {
+    @apply mt-3
+  }
+}
