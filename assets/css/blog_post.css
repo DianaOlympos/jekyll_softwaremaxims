@@ -19,8 +19,9 @@
   }
 
   p {
-    @apply text-lg font-medium mx-6 my-1 leading-normal text-justify self-start;
-    letter-spacing: -.003em;
+    @apply text-lg font-medium mx-6 my-1 text-justify self-start;
+    /* letter-spacing: -.003em; */
+    hyphens: auto;
   }
 
   img {
@@ -59,11 +60,15 @@
   strong {
     @apply font-semibold;
   }
+  
+  hr {
+    @apply border-none bg-bronze-50 h-1 w-2/3 my-4;
+  }
 }
 
 @layer components {
   .blogpost {
-    @apply flex flex-col flex-nowrap justify-center mx-auto text-black pb-3 bg-white border-4 border-black rounded-lg items-center mt-2;
+    @apply flex flex-col flex-nowrap justify-center mx-auto text-black pb-3 bg-white border-4 border-black rounded-lg items-center mt-2 px-5;
     max-width: 60rem;
   }
 
@@ -73,5 +78,9 @@
 
   .thin {
     @apply border-b-2 border-sky-40 border-solid mx-6 w-16;
+  }
+
+  .footnotes {
+    @apply self-start;
   }
 }

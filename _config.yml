@@ -47,11 +47,21 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "unpublished"
+    values:
+      layout: "post"
+      author: "Thomas Depierre"
+      excerpt_separator: <!--more-->
 
 collections:
   posts:
     output: true
     permalink: "/blog/:title"
+  unpublished:
+    output: true
+    permalink: "/unpublished/:title"
 
 # Build settings
 # theme: minima
