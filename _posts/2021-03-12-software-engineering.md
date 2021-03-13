@@ -40,13 +40,17 @@ what the formal model was telling them. On a hunch. They were wrong of course.
 The model was right. But the model was never meant to compute the impact of wind.
 So they saved dozens on lifes. On a gut feeling.
 
-That is what most of the engineering profession use as a process. Folk knowledge,
-DIY and gut feeling. Nothing comes close to what software engineering achieved.
+That is what most of the engineering profession, outside of software, use as a
+process. Folk knowledge, DIY and gut feeling. Nothing comes close to what software
+engineering achieved.
 
 Software engineering is the only real engineering profession.
 
 ---------------
 
 *This post is part of a serie of two. It is, partially, a satire of the arguments I keep seeing about the relationship between engineering and writing software. My own position is that yes, writing software is engineering, but that the discipline called Software Engineering has nothing to do with Engineering.*
+
+1. [Software Engineering]({{page.permalink}})
+2. [Engineering Software](/blog/engineering-software)
 
 [^1]: <https://en.wikipedia.org/wiki/Software_engineering>
