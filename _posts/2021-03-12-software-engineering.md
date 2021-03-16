@@ -48,7 +48,7 @@ Software engineering is the only real engineering profession.
 
 ---------------
 
-*This post is part of a serie of two. It is, partially, a satire of the arguments I keep seeing about the relationship between engineering and writing software. My own position is that yes, writing software is engineering, but that the discipline called Software Engineering has nothing to do with Engineering.*
+*This post is part of a serie of two. It is, partially, a satire of the arguments I keep seeing about the relationship between engineering and writing software. My own position is that yes, writing software is engineering, but that the discipline called Software Engineering has nothing to do with Engineering. I also do not think that software engineering is “superior” to other forms of engineering. This is the argument of both side pushed to the extreme.*
 
 1. [Software Engineering]({{page.permalink}})
 2. [Engineering Software](/blog/engineering-software)
