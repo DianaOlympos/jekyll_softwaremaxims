@@ -1,7 +1,7 @@
 ---
 custom_css: blog_post
 ---
-After 3 years of full remote work, i think my home office begin to look like something acceptable. So let's share it. 
+After 3 years of full remote work, i think my home office begin to look like something acceptable. So let's share it. This is of course a work in progress. I usually prioritise getting something more expensive if i expect it to stand the test of time for something close to at least a decade. Keep it in mind.
 <!--more-->
 
 ## Furniture
