@@ -44,13 +44,11 @@
   }
 
   ol {
-    list-style-type: decimal;
-    padding-left: theme('padding.4');
-    @apply my-4 ml-10 mr-16 self-start;
+    @apply my-4 ml-10 mr-16 self-start list-decimal pl-4;
   }
 
   li {
-    @apply mt-1 text-lg font-medium leading-normal text-justify self-start;
+    @apply mt-1 text-lg font-medium leading-normal text-justify self-start list-disc;
   }
 
   pre {
