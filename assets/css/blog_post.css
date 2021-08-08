@@ -19,7 +19,7 @@
   }
 
   p {
-    @apply text-lg font-medium mx-6 my-1 text-justify self-start;
+    @apply text-lg font-medium mx-6 my-1 text-left self-start;
     /* letter-spacing: -.003em; */
     hyphens: auto;
   }
