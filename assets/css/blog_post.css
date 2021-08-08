@@ -40,7 +40,7 @@
   }
 
   ul {
-    @apply my-4 ml-10 mr-16 self-start;
+    @apply my-4 ml-10 mr-16 self-start pl-2;
   }
 
   ol {
@@ -48,7 +48,7 @@
   }
 
   li {
-    @apply mt-1 text-lg font-medium leading-normal text-justify self-start list-disc;
+    @apply mt-2 text-lg font-medium leading-normal text-justify self-start list-disc;
   }
 
   pre {
