@@ -19,14 +19,14 @@
   }
 
   p {
-    @apply text-lg font-medium mx-6 my-1 text-left self-start;
+    @apply text-lg font-medium mx-6 my-1 text-left;
     /* letter-spacing: -.003em; */
     hyphens: auto;
   }
 
   img {
-    @apply rounded-sm;
-    max-height: 200px;
+    @apply rounded-sm self-center;
+    max-height: 400px;
   }
 
   a {
