@@ -67,6 +67,9 @@ collections:
     output: true
     permalink: "/unpublished/:title"
 
+postcss:
+  cache: false
+
 # Build settings
 # theme: minima
 plugins:
