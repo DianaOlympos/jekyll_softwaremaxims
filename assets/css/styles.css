@@ -75,7 +75,7 @@
   }
 
   .footer-element {
-    @apply mx-3;
+    @apply mx-3 list-none;
   }
 
   .footer-link {
