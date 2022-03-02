@@ -46,11 +46,11 @@
   }
 
   ol {
-    @apply my-4 ml-10 mr-16 self-start list-decimal pl-4;
+    @apply my-4 ml-10 mr-16 self-start list-disc pl-4;
   }
 
   li {
-    @apply mt-2 text-lg font-medium leading-normal text-justify self-start list-disc;
+    @apply mt-2 text-lg font-medium leading-normal text-justify self-start;
   }
 
   pre {
