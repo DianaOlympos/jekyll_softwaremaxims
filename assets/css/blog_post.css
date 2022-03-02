@@ -53,7 +53,7 @@
     @apply mt-2 text-lg font-medium leading-normal text-justify self-start list-disc;
   }
 
-  pre {
+  pre {
     @apply flex mx-16 my-2 self-stretch items-start;
   }
 
@@ -80,6 +80,6 @@
   }
 
   .footnotes {
-    @apply self-start;
+    @apply self-start list-decimal;
   }
 }
