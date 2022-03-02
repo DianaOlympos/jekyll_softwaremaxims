@@ -71,7 +71,7 @@
   }
 
   .footer-list {
-    @apply flex justify-center self-center my-1;
+    @apply flex justify-center self-center my-1 list-none;
   }
 
   .footer-element {
