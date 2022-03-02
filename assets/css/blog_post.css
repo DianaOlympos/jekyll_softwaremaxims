@@ -8,6 +8,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
   h1 {
     @apply text-5xl font-bold m-4 leading-tight;
   }
@@ -64,6 +65,7 @@
   hr {
     @apply border-none bg-bronze-50 h-1 w-2/3 my-4;
   }
+}
 
 @layer components {
   .blogpost {
