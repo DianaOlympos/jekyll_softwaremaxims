@@ -2,10 +2,11 @@
 custom_css: blog_post
 title: The Missing Middle of Funding Tech Companies
 ---
-# The Missing Middle of funding tech companies
 Tech companies that make money for their investors seem to mostly... not exist. And the reason for that is that we have no financial instrument to fund them. 
 
 In this post i will review the existing financial instruments usually offered to finance the creation of a new firm. Try to show you these instruments do not work for tech company that want to make money for their investors. And leave you at that.
+
+<!--more-->
 
 If you like this and would like it in talk form in a conference you organise, feel free to contact me.*TODO, insert mailto* I would love to make a talk version of this post.
 
