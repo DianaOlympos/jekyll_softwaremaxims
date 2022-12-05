@@ -75,7 +75,6 @@ postcss:
 plugins:
   - jekyll-feed
   - jekyll-postcss
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-twitter-plugin
