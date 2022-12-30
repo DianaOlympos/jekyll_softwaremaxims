@@ -1,6 +1,6 @@
 ---
 custom_css: blog_post
-title: The Software Supply Chain problem: I am not a supplier
+title: I am not a supplier
 ---
 
 For the past few years, we have seen a lot of discussions around the concept of the Software Supply Chain. These discussions started around the time of LeftPad and escalated with multiple incidents in the past few years. The problem of all the work in this domain is that it forgets a fundamental point. Let's talk about this.
