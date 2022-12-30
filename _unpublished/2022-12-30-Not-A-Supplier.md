@@ -50,9 +50,7 @@ And we know it. This is why in every single one of these licenses, that govern t
 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-It may feel a bit legalese, and yes, it shouts at you, but i can summarize it pretty easily.
-
-If you use this, i owe you nothing. At all. We have no relationship. I put this up online at the condition that if you use it, all the risks are on you.
+It may feel a bit legalese, and yes, it shouts at you, but i can summarize it pretty easily. If you use this, i owe you nothing. At all. We have no relationship. I put this up online at the condition that if you use it, all the risks are on you.
 
 What it means is that there is no supply chain here. Because there is no supplier. I am not providing you something that you bought for me. There is no relationship. I put something online because i wanted to. The fact you made your product depend on it is _your responsibility_. Not mine. Not the one of the providers. We provide libraries. We do not supply them. You cannot apply rules on me
 
