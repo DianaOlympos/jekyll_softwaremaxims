@@ -59,8 +59,6 @@ And quite honestly, I am not going to accept them. I barely have time to spend o
 
 Now, I am more than happy to become a supplier. You want me to work a certain way, I am more than happy to do it. But to do that, I am going to have to become a supplier. Which means you are going to have to start to pay me. A fair price, that we can negotiate. Under a different licence.
 
-Until then, I am not your supplier. So all your Software Supply Chain ideas? You are not buying from a supplier, you are a raccoon digging through dumpsters for free code. So I would advise you to put these rules in the same dumpster.
-
-And remember. I am not a supplier. Because
+Until then, I am not your supplier. So all your Software Supply Chain ideas? You are not buying from a supplier, you are a raccoon digging through dumpsters for free code. So I would advise you to put these rules in the same dumpster. And remember. I am not a supplier. Because
  
 > THIS SOFTWARE IS PROVIDED "AS IS"
