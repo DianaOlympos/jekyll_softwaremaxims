@@ -53,7 +53,7 @@ And we know it. This is why in every single one of these licences, that govern t
 
 It may feel a bit legalese, and yes, it shouts at you, but I can summarise it pretty easily. If you use this, I owe you nothing. At all. We have no relationship. I put this up online on the condition that if you use it, all the risks are on you.
 
-What it means is that there is no supply chain here. Because there is no supplier. I am not providing you something that you bought for me. There is no relationship. I put something online because I wanted to. The fact you made your product depend on it is _your responsibility_. Not mine. Not the one of the providers. We provide libraries. We do not supply them. You cannot apply rules to me.
+What it means is that there is no supply chain here. Because there is no supplier. I am not providing you something that you bought from me. There is no relationship. I put something online because I wanted to. The fact you made your product depend on it is _your responsibility_. Not mine. Not the one of the providers. We provide libraries. We do not supply them. You cannot apply rules to me.
 
 And quite honestly, I am not going to accept them. I barely have time to spend on doing the work on the FOSS libraries I maintain and doing so regularly burns out the people doing it.
 
