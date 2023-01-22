@@ -22,9 +22,8 @@
   }
 
   p {
-    @apply text-lg font-medium mx-6 my-1 text-left;
+    @apply text-lg font-medium mx-6 my-1 text-left break-normal;
     /* letter-spacing: -.003em; */
-    hyphens: auto;
   }
 
   img {
