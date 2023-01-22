@@ -69,15 +69,14 @@ collections:
 
 postcss:
   cache: false
-
 # Build settings
 # theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-postcss
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-twitter-plugin
+# plugins:
+#   - jekyll-feed
+#   - jekyll-postcss
+#   - jekyll-sitemap
+#   - jekyll-seo-tag
+#   - jekyll-twitter-plugin
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

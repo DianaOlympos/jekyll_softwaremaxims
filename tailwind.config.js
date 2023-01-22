@@ -1,15 +1,14 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  mode: "jit",
-  purge: [
-    './_includes/**/*.html',
+  content: [
+    './_site/**/*.html',
     './_layouts/**/*.html',
     './_posts/*.md',
+    './_unpublished/*.md',
     './*.html',
     './*.md',
   ],
-  darkMode: false,
   theme: {
     colors: {
       blue: {
@@ -158,7 +157,8 @@ module.exports = {
       },
       black: '#1d1f24',
       white: '#ffffff',
-      transparent: 'rgba(0,0,0,0)'
+      transparent: 'rgba(0,0,0,0)',
+      current: 'currentColor'
     },
     extend: {
       fontFamily: {
@@ -168,7 +168,6 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [
   ],
 }
