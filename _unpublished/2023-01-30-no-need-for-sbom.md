@@ -167,6 +167,8 @@ official organizations, all ready to get corporate sponsorship. And the budget
 for entry is low. And this whole post should be readable by your executives or
 directors, so feel free to send it to them. You have no excuse now.
 
+---------------
+
 P.S.: Of course, I do not expect anyone to follow my guide here. Even less take
 my offer up for the consulting sessions. I will post a follow-up regularly with
 metrics for these if anyone buys one. But I expect no one. This is me taking the
