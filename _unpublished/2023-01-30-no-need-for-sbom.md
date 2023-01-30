@@ -13,9 +13,9 @@ otherwise, they cannot know who to direct the money to.<!--more-->
 
 I want to talk about this a bit more today. I do not think this is a valid
 argument. I will explain what a SBOM is, why you probably do not need it to
-support your Digital Infrastructure, and then even explain to you _how to find
-where to send the money to support it_. So if you legitimately have a budget to
-spend on the FOSS maintainers that make your business successful, you can follow
+support your Digital Infrastructure, and then even explain to you how to find
+where to send the money. So if you legitimately have a budget to
+spend on the FOSS maintainers who make your business successful, you can follow
 this recipe to help them.
 
 And you know what? I will even make it easier. If you have a budget but do not
