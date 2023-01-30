@@ -110,9 +110,11 @@ out the guidelines.
 And remember, if you want them in a nice report tailored for you with your logo
 on it, to give it to your executive to convince them, I offer that service.
 
-<a markdown="0" class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
+<div markdown="0">
+<a class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
 Book your FOSS Consultation today
 </a>
+</div>
 
 ## Where do I send my money then?
 
