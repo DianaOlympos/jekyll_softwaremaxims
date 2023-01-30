@@ -83,4 +83,8 @@
   .footnotes {
     @apply self-start list-decimal;
   }
+
+  .cta-blog {
+    @apply bg-sky-60 text-white hover:text-bronze-40 hover:bg-sky-90 w-40 rounded font-bold py-2 px-4 mr-4 my-3;
+  }
 }
