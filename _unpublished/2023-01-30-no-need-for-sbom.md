@@ -25,8 +25,7 @@ at the end, I will send you a report of the different organizations you can
 support that will ensure the sustainability of the Digital Infrastructure of
 your business. And I will even recommend a reasonable amount to send to each.
 You will just have to sign the checks. Easy, simple, exactly what you keep
-asking for.
-
+asking for.  
 [Book a FOSS Support
 Consultation](https://calendly.com/thomas-depierre/foss-sponsorship-consultation){:
 .cta-blog}
@@ -108,8 +107,7 @@ industry simply cannot provide guidelines on how to spend it, well I will spell
 out the guidelines.
 
 And remember, if you want them in a nice report tailored for you with your logo
-on it, to give it to your executive to convince them, I offer that service.
-
+on it, to give it to your executive to convince them, I offer that service.  
 [Book your FOSS Consultation
 today](https://calendly.com/thomas-depierre/foss-sponsorship-consultation){:
 .cta-blog}
