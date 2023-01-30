@@ -27,7 +27,7 @@ your business. And I will even recommend a reasonable amount to send to each.
 You will just have to sign the checks. Easy, simple, exactly what you keep
 asking for.
 
-<a class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
+<a markdown="block" class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
 Book a FOSS Support Consultation
 </a>
 
@@ -110,7 +110,7 @@ out the guidelines.
 And remember, if you want them in a nice report tailored for you with your logo
 on it, to give it to your executive to convince them, I offer that service.
 
-<a class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
+<a markdown="block" class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
 Book your FOSS Consultation today
 </a>
 
