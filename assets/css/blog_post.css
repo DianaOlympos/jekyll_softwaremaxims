@@ -85,6 +85,6 @@
   }
 
   .cta-blog {
-    @apply bg-sky-60 text-white hover:text-bronze-40 hover:bg-sky-80 rounded font-bold px-4 my-3 py-3 hover:no-underline no-underline;
+    @apply block bg-sky-60 text-white hover:text-bronze-40 hover:bg-sky-80 rounded font-bold px-4 my-3 py-3 hover:no-underline no-underline;
   }
 }
