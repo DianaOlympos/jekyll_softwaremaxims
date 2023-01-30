@@ -1,6 +1,6 @@
 ---
 custom_css: blog_post
-title: No Need for SBOM to Pay FOSS Maintainers
+title: Support Maintainers without SBOM
 ---
 
 I got a lot of engagement and discussions over the last month around ["I am not
