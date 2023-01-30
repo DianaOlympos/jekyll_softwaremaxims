@@ -32,7 +32,7 @@
   }
 
   a {
-    @apply text-sky-80 hover:text-bronze-40 underline hover:underline;
+    @apply text-sky-80 hover:text-bronze-60 underline hover:underline;
   }
 
   blockquote {
