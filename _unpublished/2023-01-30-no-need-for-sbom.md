@@ -25,10 +25,11 @@ at the end, I will send you a report of the different organizations you can
 support that will ensure the sustainability of the Digital Infrastructure of
 your business. And I will even recommend a reasonable amount to send to each.
 You will just have to sign the checks. Easy, simple, exactly what you keep
-asking for.  
-[Book a FOSS Support
-Consultation](https://calendly.com/thomas-depierre/foss-sponsorship-consultation){:
-.cta-blog}
+asking for.
+
+<a class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
+Book a FOSS Support Consultation
+</a>
 
 ## SBOM 101
 
@@ -107,10 +108,11 @@ industry simply cannot provide guidelines on how to spend it, well I will spell
 out the guidelines.
 
 And remember, if you want them in a nice report tailored for you with your logo
-on it, to give it to your executive to convince them, I offer that service.  
-[Book your FOSS Consultation
-today](https://calendly.com/thomas-depierre/foss-sponsorship-consultation){:
-.cta-blog}
+on it, to give it to your executive to convince them, I offer that service.
+
+<a class="cta-blog" href="https://calendly.com/thomas-depierre/foss-sponsorship-consultation">
+Book your FOSS Consultation today
+</a>
 
 ## Where do I send my money then?
 
