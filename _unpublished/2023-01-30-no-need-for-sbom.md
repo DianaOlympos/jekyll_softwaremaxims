@@ -41,13 +41,13 @@ it in your systems. And finally, you need to upgrade them all to the fixed
 version. Every single one of these steps is hard.
 
 Modern systems may use thousands and thousands of these packages, each of them
-with its dependencies on another piece of software that they bring with them.
+with dependencies on other pieces of software that they bring with them.
 And every one of your services that depends on one of these packages may be
 using a different version. On top of that, it is highly possible that no one
 remembers how the service uses it, that it uses it, or even that the service
 using that particular vulnerable package exists. It is a mess.
 
-What SBOM enable, is to have for every single part that composes your systems, a
+What SBOMs enable, is to have for every single part that composes your systems, a
 file that lists all the packages it depends on, their versions, and all this
 information for all the dependencies of these packages too. They allow you to be
 able to answer the questions "Do we use the affected package", "Where do we use
