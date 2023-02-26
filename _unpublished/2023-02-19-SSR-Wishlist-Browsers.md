@@ -69,7 +69,11 @@ And better font tooling to subset with named sets and properties for the develop
 
 This is why we use Tailwind. Make it work the same way the class rule work in HTML. That is enough for us. At least as a first implementation
 
-## Cascade Layers, yes, please
+## Cascade Layers expansion (link support)
+
+https://github.com/whatwg/html/issues/7540
+
+Make it efficient by supporting it in the `link` elements, so that it can be loaded fast, instead of depending on `@import`
 
 ## Get the maths functions out of WD
 
@@ -78,6 +82,12 @@ This is why we use Tailwind. Make it work the same way the class rule work in HT
 This is not even a draft, there is as far as I can tell no movement. But JS got an import map and [there used to be discussions](https://discourse.wicg.io/t/proposal-fetch-maps/4259). Bring it back. Today. Please.
 
 TODO: add an example, with things like URLs in CSS, CSS modules, or images in HTML
+
+## H and hgroup
+
+Need to explore this with how the whatwg spec changed recently
+https://github.com/whatwg/html/commit/6682bdeee6fb08f5972bea92064fe250f1b4ec9c
+https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html
 
 ## Conclusion
 
