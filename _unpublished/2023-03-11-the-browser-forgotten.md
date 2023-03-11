@@ -5,7 +5,6 @@
 custom_css: blog_post
 title: The DX that the front-end crowd left on the side of the road
 ---
-
 A few things in the world of Web front-end developers have caught my attention lately. Two things mainly. The first is around how defining the front-end as centered around JS is uh... problematic, at least if we want people to use our stuff. The other is around Interop 2023 and in particular Declarative Shadow DOM. And I feel that both are more linked than we think. They reflect the reality of the evolution of WHATWG and W3C and by reflection the browser vendors in the past decade.
 <!--more--> 
 
