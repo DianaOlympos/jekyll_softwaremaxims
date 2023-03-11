@@ -13,9 +13,7 @@ For a bit of back-story, the best place to start is probably [Alex Russel's stat
 
 [Laurie Voss’ “The case for frameworks”](https://seldo.com/posts/the_case_for_frameworks) was an interesting response, that I think you should read too. I think it is quite representative of the current model of the world that is pervasive in the front-end developer world. I have a lot of problems with it, but I will not try to attack them today.
 
-More interestingly to me, Laurie makes the point that the JS frameworks _save developer time_. This is a regularly tooted advantage of all these front-end frameworks. I would argue that if no one can use it, as the state of the client landscape shows is probably the case, then the Developer Experience (DX) does not matter. Going faster to produce something useless does not help.
-
-But I think there is another interesting argument here, one that matters a lot.
+More interestingly to me, Laurie makes the point that the JS frameworks _save developer time_. This is a regularly tooted advantage of all these front-end frameworks. I would argue that if no one can use it, as the state of the client landscape shows is probably the case, then the Developer Experience (DX) does not matter. Going faster to produce something useless does not help. But I think there is another interesting argument here, one that matters a lot.
 
 ## How can we make the DX better for the browser? 
 
