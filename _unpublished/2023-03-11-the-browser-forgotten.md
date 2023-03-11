@@ -1,6 +1,3 @@
-
-
-
 ---
 custom_css: blog_post
 title: The DX that the front-end crowd left on the side of the road
