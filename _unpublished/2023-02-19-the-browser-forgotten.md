@@ -6,7 +6,7 @@ custom_css: blog_post
 title: The DX that the front-end crowd left on the side of the road
 ---
 
-A few things in the world of Web front-end developers have caught my attention lately. Two things mainly. The first is around how defining the front-end as centered around JS is uh... problematic, at least if we want people to use our stuff. The other is around Interop 2023 and in particular Declarative Shadow DOM. And I feel that both are more linked than we think. They reflect a reality of the evolution of WHATWG and W3C and by reflection the browser vendors in the past decade.
+A few things in the world of Web front-end developers have caught my attention lately. Two things mainly. The first is around how defining the front-end as centered around JS is uh... problematic, at least if we want people to use our stuff. The other is around Interop 2023 and in particular Declarative Shadow DOM. And I feel that both are more linked than we think. They reflect the reality of the evolution of WHATWG and W3C and by reflection the browser vendors in the past decade.
 <!--more--> 
 
 ## Wait, no one can use this?
@@ -33,7 +33,7 @@ In this model, the JS frameworks play the role of a trailblazer. Exploring the d
 
 In the past 5 to 10 years, this has not happened as much as we would like. It is time for the pendulum to swing. Partly, this is because the browser vendors had to first catch up to make the browsers _usable_. We may forget it now that we all use Grid, Flexbox, HSL, Fetch, and all. But this space used to be dire. It is a space where JQuery was the crutch and trailblazer, another JS framework.
 
-And i want to acknowledge the tremendous work done by Developer Advocates, WG members at W3C and WHATWG before it got merged back, developers at the vendors and all the other people that keep going to work everyday to help make the web easier to use and nicer for everyone. This is hard work, this has been hard work, and we rarely know about the constant efforts they have to do to bring things forward.
+And I want to acknowledge the tremendous work done by Developer Advocates, WG members at W3C and WHATWG before it got merged back, developers at the vendors, and all the other people that keep going to work every day to help make the web easier to use and nicer for everyone. This is hard work, this has been hard work, and we rarely know about the constant efforts they have to do to bring things forward.
 
 And thanks to their work, the browsers caught up with JQuery, making the DX for the web far better. But now we need to do the same with the path React and co have traced.
 
@@ -41,8 +41,8 @@ And thanks to their work, the browsers caught up with JQuery, making the DX for 
 
 This brings us to the wishlist. I am not a front-end person by choice. This is not my specialty. But it happens that I regularly have to write them, because tools need to interact with humans, and front-ends are kind of needed for that. And the web is the easiest platform to build this on when you need remote tooling. But it also means that I am _ruthless_ with my tools.
 
-I need tools for the frontend that are featureful, easy to use, and adapted to developers with limited front-end experience doing it all. I need things that give me instant feedback because I will not have a designer. The only way I can make things pretty is through constant incremental change based on how it looks to me. Also, it means I cannot bring in a full design system, nor a JS framework, because just keeping this stuff properly plumbed in and up to date is more time than I can allocate to it.
+I need tools for the front-end that are featureful, easy to use, and adapted to developers with limited front-end experience doing it all. I need things that give me instant feedback because I will not have a designer. The only way I can make things pretty is through constant incremental change based on how it looks to me. Also, it means I cannot bring in a full design system, nor a JS framework, because just keeping this stuff properly plumbed in and up to date is more time than I can allocate to it.
 
 So I am an SSR person. Fully static sites are done with Jekyll, Soupault, or an equivalent. Semi-dynamic one, that needs to adapt the data they show, with Phoenix. And if I need a dynamic page, it is going to be Liveview. My CSS is nearly always Tailwind, for reasons explained lower.
 
-Do you know what I cannot use? None of the CSS-in-JS stuff. No JSX. No HTMX. No CSS Modules. No Web Components. None of this stuff. And yet, I can see the needs. And I see how things are being done on the JS side. I think at this point, i should publish my own Browser Wishlist. I say Browser, because i want more than just some CSS.
+Do you know what I cannot use? None of the CSS-in-JS stuff. No JSX. No HTMX. No CSS Modules. No Web Components. None of this stuff. And yet, I can see the needs. And I see how things are being done on the JS side. I think at this point, I should publish my own Browser Wishlist. I say Browser because I want more than just some CSS.
