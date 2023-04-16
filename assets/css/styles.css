@@ -8,6 +8,65 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .blogpost {
+    & h1 {
+      @apply text-5xl font-bold m-4 leading-tight;
+    }
+  
+    & h2 {
+      @apply text-2xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
+    }
+  
+    & h3 {
+      @apply text-xl font-bold mx-6 mt-5 mb-2 leading-tight self-start;
+    }
+  
+    & p {
+      @apply text-lg font-medium mx-6 my-1 text-left break-normal;
+      /* letter-spacing: -.003em; */
+    }
+  
+    & img {
+      @apply rounded-sm self-center;
+      max-height: 400px;
+    }
+  
+    & a {
+      @apply text-sky-80 hover:text-bronze-40 underline hover:underline;
+    }
+  
+    & blockquote {
+      @apply text-lg italic;
+      margin-right: 3rem;
+      margin-left: 3rem;
+    }
+  
+    & ul {
+      @apply my-4 ml-10 mr-16 self-start pl-2;
+    }
+  
+    & ol {
+      @apply my-4 ml-10 mr-16 self-start list-disc pl-4;
+    }
+  
+    & li {
+      @apply mt-2 text-lg font-medium leading-normal text-justify self-start;
+    }
+  
+    & pre {
+      @apply flex mx-16 my-2 self-stretch items-start;
+    }
+  
+    & strong {
+      @apply font-semibold;
+    }
+    
+    & hr {
+      @apply border-none bg-bronze-50 h-1 w-2/3 my-4;
+    }  
+  }
+}
 @layer components {
   .header-title {
     @apply flex items-center justify-center flex-wrap p-6 bg-sky-50;
@@ -84,5 +143,24 @@
 
   .about-p {
     @apply mt-3
+  }
+
+  .blogpost {
+    @apply flex flex-col flex-nowrap justify-center mx-auto text-black pb-3 bg-white border-4 border-black rounded-lg items-center mt-2 px-5;
+    max-width: 60rem;
+
+
+    & .blogpost-header {
+      @apply self-end text-base text-gray-90;
+    }
+  
+    & .thin {
+      @apply border-b-2 border-sky-40 border-solid mx-6 w-16;
+    }
+  
+    & .footnotes {
+      @apply self-start list-decimal;
+    }
+  
   }
 }

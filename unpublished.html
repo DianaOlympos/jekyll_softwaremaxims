@@ -4,7 +4,7 @@ title: Unpublished Musings about software
 <div class="container">
   <h1 class="page-title"> {{ page.title }} </h1>
   <ul class="flex flex-col flex-nowrap justify-center items-center">
-    {% for post in site.unpublished %}
+    {% for post in site.unpublished reversed %}
     <li class="blog-card">
       <div class="blog-card-text">
         <a class="primary-link post-title-list" href="{{ post.url }}">
