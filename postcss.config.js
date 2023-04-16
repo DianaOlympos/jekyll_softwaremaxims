@@ -6,8 +6,6 @@ module.exports = {
     'postcss-preset-env': {
       features: { 'nesting-rules': false },
     },
-    ...(process.env.JEKYLL_ENV == "production"
-      ? [require('cssnano')({ preset: 'default' })]
-      : [])
+    ...(process.env.NODE_ENV === 'production' ? { cssnano: {} } : {})
   }
 };
