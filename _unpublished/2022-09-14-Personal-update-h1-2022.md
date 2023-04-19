@@ -1,5 +1,4 @@
 ---
-custom_css: blog_post
 title: What Diana have done, H1-2022 Edition
 ---
 

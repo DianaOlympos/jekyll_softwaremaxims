@@ -1,5 +1,4 @@
 ---
-custom_css: blog_post
 title: I am not a supplier
 ---
 

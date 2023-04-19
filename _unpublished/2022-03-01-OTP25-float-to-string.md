@@ -1,5 +1,5 @@
 ---
-custom_css: blog_post
+title: Float To String in OTP 25
 ---
 In OTP 25, you will have access to a new option for `float_to_list/2` and
 `float_to_binary/2`. This was the result of work i contributed with the support

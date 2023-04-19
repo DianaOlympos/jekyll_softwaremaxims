@@ -1,5 +1,4 @@
 ---
-custom_css: blog_post
 title: The Missing Middle of Funding Tech Companies
 ---
 Tech companies that make money for their investors seem to mostly... not exist.

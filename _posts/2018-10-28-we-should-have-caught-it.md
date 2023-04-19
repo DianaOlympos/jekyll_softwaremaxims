@@ -1,5 +1,5 @@
 ---
-custom_css: blog_post
+title: We Should Have Caught It
 ---
 You have at least one passionate friend. Many even. Maybe are you passionate yourself. It does not matter what the focus of that passion is. <!--more-->
 

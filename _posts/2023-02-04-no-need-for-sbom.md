@@ -1,5 +1,4 @@
 ---
-custom_css: blog_post
 title: Support Maintainers without SBOM
 ---
 

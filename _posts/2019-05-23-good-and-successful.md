@@ -1,5 +1,5 @@
 ---
-custom_css: blog_post
+title: Good and Succesful
 ---
 Recently, I discovered [this blogpost](https://chrismcmahonsblog.blogspot.com/2019/05/evaluating-test-suite-toad-thought.html). It generated a bit of discussion on Twitter, which [you can find here](https://twitter.com/chris_mcmahon/status/1131287381573660674). One of this response was around how we can define "good", especially for that topic of testing. <!--more-->
 

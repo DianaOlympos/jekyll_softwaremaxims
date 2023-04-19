@@ -1,5 +1,4 @@
 ---
-custom_css: blog_post
 title: The Release Pipeline you can't have
 ---
 Let me tell you about the Release Pipeline we nearly built at one of my ex-job.

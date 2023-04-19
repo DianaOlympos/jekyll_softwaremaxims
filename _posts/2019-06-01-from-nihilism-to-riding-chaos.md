@@ -1,5 +1,5 @@
 ---
-custom_css: blog_post
+title: From Nihilism to Riding Chaos
 ---
 This post is part of an ongoing "thinking aloud" series. It is meant to
 "put into words" some of the ideas and models I use at the instant it was

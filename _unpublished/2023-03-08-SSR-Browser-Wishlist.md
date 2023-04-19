@@ -1,5 +1,4 @@
 ---
-custom_css: blog_post
 title: A SSR dev Browser API wishlist
 ---
 Last time, I shared my view on the current state of the browser APIs for SSR developers. This time, to not be seen as only criticizing, let's see at what is in the pipeline, or could be in the pipeline, from the browsers, to make our life easier.

@@ -1,5 +1,5 @@
 ---
-custom_css: blog_post
+title: Hello World
 ---
 Finally. After more than two years of talking about it, I have a place to put my rants on. I want to talk about the tech stack behind it and some choices I made. I ended up writing my own blog engine and learn a bit in the process.
 <!--more-->

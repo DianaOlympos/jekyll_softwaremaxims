@@ -1,5 +1,5 @@
 ---
-custom_css: blog_pos
+title: Famous Incidents Reading List
 ---
 This is a list of famous incidents i learned from. It also has various other
 sources i use to learn about them. There are also a lot of thing on how to learn

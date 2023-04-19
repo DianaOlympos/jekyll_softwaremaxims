@@ -1,5 +1,5 @@
 ---
-custom_css: blog_post
+title: Home Office Setup 2021
 ---
 After 3 years of full remote work, i think my home office is starting to look acceptable. So let's share it. This is of course a work in progress. I usually prioritise getting something more expensive if i expect it to stand the test of time. If i will probably still use it without pain in a decade, i am ready to pay more for it. Keep that in mind.
 <!--more-->
