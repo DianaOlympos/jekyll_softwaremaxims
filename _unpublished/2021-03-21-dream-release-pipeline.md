@@ -61,4 +61,4 @@ Habitat even, they all can do it. A pretty good start.
 Publishing the recipe and using that as a base ? Same thing, we can do it.
 
 Getting the information an update is needed, that gets harder. There are mechanisms,
-but outside of Habitat
+but outside of Habitat, everyone is stuck in Docker and its Kubernetes friend.
