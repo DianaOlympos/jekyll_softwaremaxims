@@ -41,7 +41,6 @@ CAS as a cache. Every build end with the machine being scrubbed clean.
 The recipe itself is then CAS stored and is the package you note as deployable.
 You are not allowed to know more. The Build system live outside of the rest and never
 talk to anything, except strictly controlled by its contents hash.
-
 The typical examples here are Bazel, Nix, Guix, Habitat, ...
 
 That means that the team is responsible for updating their dependencies. To mitigate
