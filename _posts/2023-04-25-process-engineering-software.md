@@ -107,11 +107,11 @@ no one runs Valgrind? Why is not everyone running fuzzers? Why don't we have
 capabilities, or a better firewall? Why is everyone leaving S3 buckets open? I
 could keep going for hours.
 
-And yet, the reality is that we have, in a lot of cases, the pieces of knowledge and
-inventions to fix this. We could have tools that are far smarter and easier to
-use for IaC. We know how to type-check a lot of this. Making firewalls that are
-easier to configure and not open by default to everything is something we know
-how to do it. We can invent ways to add capabilities to our programs. We
+And yet, the reality is that we have, in a lot of cases, the pieces of knowledge
+and inventions to fix this. We could have tools that are far smarter and easier
+to use for IaC. We know how to type-check a lot of this. Making firewalls that
+are easier to configure and not open by default to everything is something we
+know how to do it. We can invent ways to add capabilities to our programs. We
 can type-check things. There are great property-based testing engines out there.
 We know how to package runtime environments better and deploy them faster and
 better. You do not have to deal with the pain that is the current Python package
