@@ -43,11 +43,11 @@
     }
   
     & ul {
-      @apply my-4 ml-10 mr-16 self-start pl-2;
+      @apply my-4 ml-10 mr-16 self-start pl-2 list-disc;
     }
   
     & ol {
-      @apply my-4 ml-10 mr-16 self-start list-disc pl-4;
+      @apply my-4 ml-10 mr-16 self-start list-decimal pl-4;
     }
   
     & li {
