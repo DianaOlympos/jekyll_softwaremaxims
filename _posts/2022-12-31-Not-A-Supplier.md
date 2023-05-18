@@ -10,7 +10,7 @@ Before we get there, I am going to define what is usually meant by Supply Chain 
 
 In the past couple of decade, we have seen the rise of Free and Open Source Software (FOSS). In particular, this has enabled a massive growth of the reuse of pieces of codes, packaged as libraries. This has been possible due to a massive ecosystem of infrastructure that bloomed around that idea. Package Managers exist for every programming language environment under the sun nowadays, with central repositories holding the metadata needed to find the libraries and handle their distributions.
 
-This has been possible due to the FOSS Licences being pretty lenient, enabling a reuse and remix of these libraries without the massive legal and financial headache that would come otherwise. A modern software project will probably have hundreds if not thousands of these dependencies, from OpenSSL to a test framework or a datepicker, across a wide spectrum covering things like a JSON encoder/decoder library or even the libc of the OS it is deployed on.
+This has been possible due to the FOSS Licenses being pretty lenient, enabling a reuse and remix of these libraries without the massive legal and financial headache that would come otherwise. A modern software project will probably have hundreds if not thousands of these dependencies, from OpenSSL to a test framework or a datepicker, across a wide spectrum covering things like a JSON encoder/decoder library or even the libc of the OS it is deployed on.
 
 This ecosystem of dependencies, a lot of them transitive (dependencies of a dependency), is what the Software Supply Chain model calls the Supply Chain of the project. Inside this model we will find tools that help manage it, like a Software Bill Of Materials (SBOM) that is supposed to hold the information of what libraries are used for this project, where they were found, which version, some hash of the content, etc.
 
@@ -38,7 +38,7 @@ These rules govern things like how we test the code, how we protect who has acce
 
 ## I am not a supplier
 
-There is a small problem here. We are not suppliers. All the people writing and maintaining these projects, we are not suppliers. We do not have a business relationship with all these organisations. We are volunteers, writing code and putting it online under these Licences. And yes, we put it online for people to use them. But we do not get anything from it.
+There is a small problem here. We are not suppliers. All the people writing and maintaining these projects, we are not suppliers. We do not have a business relationship with all these organisations. We are volunteers, writing code and putting it online under these Licenses. And yes, we put it online for people to use them. But we do not get anything from it.
 
 Hell even worse, a lot of the libraries that underpin the fabric of what we all call the digital economy _have trouble getting enough money to pay for food_. On this topic, I strongly advise everyone to take the time to read [Nadia Eghbal Road and Bridges report](https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/) to realize the depth of the problem. It is a bit old, as it was written in the aftermath of HeartBleed, but it is as relevant today as it was at the time.
 
@@ -46,7 +46,7 @@ Or for a funnier, more visual explanation, [XKCD 2347](https://xkcd.com/2347/)
 
 ![XKCD 2347, image of a stack of blocks, labelled "All modern digital infrastructure", with one small block holding the whole stack stable labelled "A project some random person in Nebraska has been thanklessly maintaining since 2003](https://imgs.xkcd.com/comics/dependency.png)
 
-And we know it. This is why in every single one of these licences, that govern the rules to reuse the work we put online in these libraries, you will find this paragraph, copied verbatim.
+And we know it. This is why in every single one of these licenses, that govern the rules to reuse the work we put online in these libraries, you will find this paragraph, copied verbatim.
 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
@@ -56,7 +56,7 @@ What it means is that there is no supply chain here. Because there is no supplie
 
 And quite honestly, I am not going to accept them. I barely have time to spend on doing the work on the FOSS libraries I maintain and doing so regularly burns out the people doing it.
 
-Now, I am more than happy to become a supplier. You want me to work a certain way, I am more than happy to do it. But to do that, I am going to have to become a supplier. Which means you are going to have to start to pay me. A fair price, that we can negotiate. Under a different licence.
+Now, I am more than happy to become a supplier. You want me to work a certain way, I am more than happy to do it. But to do that, I am going to have to become a supplier. Which means you are going to have to start to pay me. A fair price, that we can negotiate. Under a different license.
 
 Until then, I am not your supplier. So all your Software Supply Chain ideas? You are not buying from a supplier, you are a raccoon digging through dumpsters for free code. So I would advise you to put these rules in the same dumpster. And remember. I am not a supplier. Because
  
