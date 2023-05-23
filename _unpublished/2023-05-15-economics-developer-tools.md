@@ -1,68 +1,255 @@
 ---
 title: The Economics of Developer Tooling
 ---
-More attention to developer tooling, in particular bringing to everyone's toolkit the techniques and technologies developed since the 80s but that was never mainstreamed, would be a major boon to software velocity, ease of maintenance, and safety. It is at least what I advocated for in [We Need More Process Engineering in Software](/blog/process-engineering-software). Over the past few years, I had to explain to a lot of people the current state of developer tooling development and how the economics of them work. This post aims to regroup all of this in one place.
+It would be a major boon to software velocity, maintenance burden and safety to
+bring moreMore attention to developer tooling, in particular bringing to
+everyone’s toolkit the techniques and technologies developed since the 80s but
+that was never mainstreamed. It is at least what I advocated for in [We Need
+More Process Engineering in Software](/blog/process-engineering-software). Over
+the past few years, I have explained to a lot of people the current state of
+developer tooling development and how the economics of them work. This post aims
+to summarize all of this in one place.
 <!--more-->
 
-I am going to try to keep this as neutral as possible. This is not about how broken or right these economics are, nor if I think they are good. This is tentative to paint the way I see the economics of developer tooling playing out in the current context. You may have a different understanding of the ecosystem. You may think I missed essential parts of it. You may think that I am wrong in considering unimportant some actors that I will dismiss. Feel free to contact me through the contacts in my footer to tell me better.
+I am going to try to keep this as neutral as possible. This is not about how
+broken or right these economics are, nor if I think they are good. This is a
+tentative sketch of the way I see the economics of developer tooling playing out
+in the currently. You may have a different understanding of the ecosystem.
+You may think I missed essential parts of it. You may think that I am wrong in
+considering unimportant some actors that I will dismiss. Feel free to contact me
+through the contacts in my footer to talk to me about it.
 
 ## Why should we even care?
 
-What does investing in developer tools bring us? That is a great question. I recommend going back to [We Need More Process Engineering in Software](/blog/process-engineering-software) and the links I post there for a deeper dive, but here I will try to summarize it in economical terms. Better Developer Experience (DX) has an impact in multiple ways. 
+What does investing in developer tools bring us? That is a great question. I
+recommend going back to [We Need More Process Engineering in
+Software](/blog/process-engineering-software) and the links I post there for a
+deeper dive, but here I will try to summarize it in economic terms. Better
+Developer Experience (DX) has an impact in multiple ways.
 
-The first is that it makes it harder to write bugs, and easier to write working software. Said otherwise, it leads to a rise in _Quality_ of the software produced, for the same cost. The second aspect, maybe the least obvious, is that allows for new _Capabilities_. Things that were hard or impossible to build without these specific tooling are now possible with relative ease. The third aspect is _Cost Reduction_. Better DX means that we can produce the software faster, meaning cheaper, but also that it is easier to _Maintain_, reducing the total cost of ownership. In addition, all of these combined means that we also get software that is _Safer_ and _Easier to Understand_. This is because the software written matches the mental model the engineers have of it better, making it easier to find how the software is not doing what is expected or harder to use it "the wrong way".
+The first is that it makes it harder to write bugs, and easier to write working
+software. Said otherwise, it leads to a rise in _Quality_ of the software
+produced, for the same cost. The second aspect, maybe the least obvious, is that
+it allows for new _Capabilities_. Things that were hard or impossible to build
+without this specific tooling are now possible with relative ease. The third
+aspect is _Cost Reduction_. Better DX means that we can produce the software
+faster, meaning cheaper, but also that it is easier to _Maintain_, reducing the
+total cost of ownership. In addition, all of these combined means that we also
+get software that is _Safer_ and _Easier to Understand_. This is because the
+software written matches the mental model the engineers have of it better,
+making it easier to find how the software is not doing what is expected or
+harder to use it "the wrong way".
 
-When we combine all of these impacts with the vast amount of software out there that we have to maintain and produce, it is easy to understand how impactful better DX can be. A few percent increases in DX would translate near instantly into _billions_ of euros. [^1] And that is without counting the increase in security, especially for heavily resource-constrained projects like the FOSS that is our digital infrastructure. Any small increment that makes the maintenance load easier on these has rippling effects, as they end up being in all the software running outside of the world.
+When we combine all of these impacts with the vast amount of software out there
+that we have to maintain and produce, it is easy to understand how impactful
+better DX can be. A few percent increase in DX would translate nearly instantly
+into _billions_ of euros. [^1] And that is without counting the increase in
+security, especially for heavily resource-constrained projects like the FOSS
+that is our digital infrastructure. Any small increment that makes the
+maintenance load easier on these has rippling effects, as they end up being in
+all the software running outside of the world.
 
-There is another aspect, on top of making the existing economy better, which is that by reducing cost and difficulty in writing software products, we also reduce the bar of entry for a project. The more the cost of entry is lowered, the more projects become possible, because broader groups and people can now enact their ideas.[^2]
+There is another aspect, on top of making the existing economy better, which is
+that by reducing cost and difficulty in writing software products, we also
+reduce the bar of entry for a project. The more the cost of entry is lowered,
+the more projects become possible, because broader groups and people can now
+act on their ideas.[^2]
 
 ## But what the hell is Developer Tooling for you?
 
-I consider Developer Tooling and DX everything that is in the direct toolkit of developers. It is a long list, I will give some examples. This list is non-exhaustive and not ordered except by how fast things came to my mind while writing this at midnight. Programming Languages themselves, expressiveness, semantics, and syntax as much as meta-programming abilities. But also compilers. Test frameworks. Formatters. Package Managers, being OS specific, languages specific and other dependencies. Terminal emulators. Shells. IDE. Code Editors. Type checkers. Type Hints. AutoComplete, both in editor and shells. REPLs. Interpreters. Profilers. Debuggers. Linters. Scripting tools. Build Systems. Development Environment managers. GUI Frameworks. Web Frameworks. Documentation tooling. Fuzzers. Etc etc.
+I consider Developer Tooling and DX everything that is in the direct toolkit of
+developers. It is a long list, so instead I will give some illustrative
+examples. Programming Languages themselves (their expressiveness, semantics, and
+syntax as much as meta-programming abilities), but also compilers. Test
+frameworks. Formatters. Package Managers (OS specific or languages specific)
+and other dependencies handling. Terminal emulators. Shells. IDE. Code Editors. Type
+checkers. Type Hints. AutoComplete, both in editor and shells. REPLs.
+Interpreters. Profilers. Debuggers. Linters. Scripting tools. Build Systems.
+Development Environment managers. GUI Frameworks. Web Frameworks. Documentation
+tooling. Fuzzers.
 
-What does a better DX mean for them? Well, it can translate in multiple ways, but I would define it as _"the ability to reduce both the length, the number, and the difficulty of understanding the feedback loop between the developer writing code and this code being declared good or bad"_. That means that the speed of the said tool is part of DX. The easiness with which their messages can be understood. How integrated these messages and tools are in the developer process of writing the code? How much work needs to be done to integrate these tools into this process? How much help do these tools provide at the right moment? All these aspects of ergonomics and more, participate in DX.
+What does a better DX mean for them? Well, it can translate in multiple ways,
+but I would define it as _"the ability to reduce both the length, the number,
+and the difficulty of understanding the feedback loop between the developer
+writing code and this code being declared good or bad"_. That means that the
+speed of the said tool is part of DX. The ease with which their messages can
+be understood. How integrated these messages and tools are in the developer
+process of writing the code? How much work needs to be done to integrate these
+tools into this process? How much help do these tools provide at the right
+moment? All these aspects of ergonomics and more, participate in DX.
 
 ## How do we get this out in the world
 
-My point in [We Need More Process Engineering in Software](/blog/process-engineering-software) was that getting this improvement in DX to the actual toolkit that developers use is a long process. 
+My point in [We Need More Process Engineering in
+Software](/blog/process-engineering-software) was that getting this improvement
+in DX to the actual toolkit that developers use is a long process.
 
-The first part of this process is to find a problem in the current toolkit, then develop an idea on how to fix it and prototype it. The economics of finding a problem are relatively well known. You only have to do enough ethnographic and user studies. We have had multiple decades of work on that domain, and that means that even if not well funded, the problems have been relatively well defined at this point. Producing that much software, with that many engineers, over multiple decades, you will manage to build a few solid theories and experiments to find out what needs to be solved. Or at least, you will have experimented with enough things that a few problems will emerge at some point. This has indeed happened.
+The first part of this process is to find a problem in the current toolkit, then
+develop an idea on how to fix it and prototype it. The economics of finding a
+problem are relatively well known. You only have to do enough ethnographic and
+user studies. We have had multiple decades of work on that domain, and that
+means that even if not well funded, the problems have been relatively well
+defined at this point. Producing that much software, with that many engineers,
+over multiple decades, you will manage to build a few solid theories and
+experiments to find out what needs to be solved. Or at least, you will have
+experimented with enough things that a few problems will emerge at some point.
+This has indeed happened.
 
-The second part is then to prototype the solutions. The economics are relatively straightforward here too. This is the domain of academics, theoretical or applied. For multiple reasons, multiple actors have funded that work. It helps that prototypes are relatively easy to achieve compared to a full-fledged product. The academic sector and the enthusiast communities have been happily churning out ideas, prototypes, and refinement over them for the past few decades. Multiple philanthropic organizations, governments, and industry organizations have funded this domain over the years. They have generated a bevy of ideas and progress, tested them, prototyped them, and validated a few of them as having interesting futures. Some of them have been integrated, with more or less success and skill, into some niche communities.
+The second part is then to prototype the solutions. The economics are relatively
+straightforward here too. This is the domain of academics, theoretical or
+applied. For multiple reasons, multiple actors have funded that work. It helps
+that prototypes are relatively easy to achieve compared to a full-fledged
+product. The academic sector and the enthusiast communities have been happily
+churning out ideas, prototypes, and refinement over them for the past few
+decades. Multiple philanthropic organizations, governments, and industry
+organizations have funded this domain over the years. They have generated a bevy
+of ideas and progress, tested them, prototyped them, and validated a few of them
+as having interesting futures. Some of them have been integrated, with more or
+less success and skill, into some niche communities.
 
-Indeed this is where the economics change. Once ideas have been generated, validated with prototypes, and filtered through experiments, now start the Process Engineering section of the pipeline. These ideas need to be analyzed and transformed into the shape expected by developers. They will need to be heavily engineered and adapted to different contexts, often time not considered in the prototype phase. This may sometimes need new inventions or a total re-architecture. Sometimes, the old tools need to be completely thrown away and new ones need to be created that fit the new techniques better. A typical example of this is Rust. Rust did not invent a lot of its techniques. They are coming directly from research from the decades before, up to the early 00s. On the other hand, Rust has necessitated a lot of engineering in the guts of the compiler and diverse tooling, to the point that they probably ended up inventing quite a lot of techniques to _adapt_ the engineering toolkit to the needs of the new technique.
+Indeed this is where the economics change. Once ideas have been generated,
+validated with prototypes, and filtered through experiments, now start the
+Process Engineering section of the pipeline. These ideas need to be analyzed and
+transformed into the shape expected by developers. They will need to be heavily
+engineered and adapted to different contexts, often time not considered in the
+prototype phase. This may sometimes need new inventions or a total
+re-architecture. Sometimes, the old tools need to be completely thrown away and
+new ones need to be created that fit the new techniques better. A typical
+example of this is Rust. Rust did not invent a lot of its techniques. They are
+coming directly from research from the decades before, up to the early 00s. On
+the other hand, Rust has necessitated a lot of engineering in the guts of the
+compiler and diverse tooling, to the point that they probably ended up inventing
+quite a lot of techniques to _adapt_ the engineering toolkit to the needs of the
+new technique.
 
-All this engineering takes time and money and skill. All of these elements impact the economics of Developer Tooling. The cost is in general relatively low [^3] compared to the general cost of producing software, and in particular low compared to the upside. This is good, but end up not factoring that much into the economics here. Time is more problematic, and constrains a lot of the domain. The cost, while low, needs to be paid for multiple years before seeing the impact of the investment. That is bad risk management. A low-cost bet, but with years before return on investment, means multiple years in which this money may be lost. This put a heavy limit on the economics of developer tooling.
+All this engineering takes time and money and skill. All of these elements
+impact the economics of Developer Tooling. The cost is in general relatively low
+[^3] compared to the general cost of producing software, and in particular low
+compared to the upside. This is good, but end up not factoring that much into
+the economics here. Time is more problematic, and constrains a lot of the
+domain. The cost, while low, needs to be paid for multiple years before seeing
+the impact of the investment. That is bad risk management. A low-cost bet, but
+with years before return on investment, means multiple years in which this money
+may be lost. This put a heavy limit on the economics of developer tooling.
 
-Magnifying the problem, the impact of this progress, while massive in the aggregate, tends to be relatively small in relative proportion. A few percent in cost reduction translates into a few thousand in real-world currency per software project. This has the interesting effect to make the upside near invisible to smaller actors. The impact is only visible in aggregate. As such, the biggest organization, with hundreds or thousands of software projects, is the only one that can meaningfully justify the size of the bet and the time to get a return on investment. We could imagine a reality in which a lot of smaller actors could band together to participate in funding a project, at the pro rata of the upside expected after a few years, discounted. But in practice, that does not happen. The industry has not found a way for these smaller organizations to participate in cooperative efforts around this tooling.
+Magnifying the problem, the impact of this progress, while massive in the
+aggregate, tends to be relatively small in relative proportion. A few percent in
+cost reduction translates into a few thousand in real-world currency per
+software project. This has the interesting effect of making the upside near
+invisible to smaller actors. The impact is only visible in aggregate. As such,
+the biggest organization, with hundreds or thousands of software projects, is
+the only one that can meaningfully justify the size of the bet and the time to
+get a return on investment. We could imagine a reality in which a lot of smaller
+actors could band together to participate in funding a project, at the pro rata
+of the upside expected after a few years, discounted. But in practice, that does
+not happen. The industry has not found a way for these smaller organizations to
+participate in cooperative efforts around this tooling.
 
-It also means that selling these tools is hard. The community has mostly settled on a FOSS model for the vast majority of developer tooling, in part because the upside is limited in the small, and only big due to the magnitude of the software industry. This is a typical example of a Common, where everyone benefits in ways that they do not realize, but only need to participate an even smaller amount to maintain the shared resource. It means that these tools need to be produced only for their cost reduction, without the hope of _selling them_. It highly limits the number of financial instruments that could be applied to fund the work in these.
+It also means that selling these tools is hard. The community has mostly settled
+on a FOSS model for the vast majority of developer tooling, in part because the
+upside is limited in the small, and only big due to the magnitude of the
+software industry. This is a typical example of a Common, where everyone
+benefits in ways that they do not realize, but only need to participate an even
+smaller amount to maintain the shared resource. It means that these tools need
+to be produced only for their cost reduction, without the hope of _selling
+them_. It highly limits the number of financial instruments that could be
+applied to fund the work in these.
 
 ## The emptiness of a professional field
 
-The combination of these produces an interesting field. A field with a lot of ideas, prototypes, and techniques that have been developed. With ample proof of the possible impact and a limited, if risky, need for investment. But a field that has nearly no investment, outside of some outsized organization that can realize the upside. There are a few commercial projects that succeed. Jetbrain of course comes to mind. And some highly driven people volunteered work to bridge the gap between prototype and production. They tend to have had outsized impact[^4].
+The combination of these produces an interesting field. A field with a lot of
+ideas, prototypes, and techniques that have been developed. With ample proof of
+the possible impact and a limited, if risky, need for investment. But a field
+that has nearly no investment, outside of some outsized organization that can
+realize the upside. There are a few commercial projects that succeed. Jetbrain
+of course comes to mind. And some highly driven people volunteered work to
+bridge the gap between prototype and production. They tend to have had outsized
+impact[^4].
 
-On the other hand, you have larger organizations that invested heavily in their developer tooling. Google, Facebook, LinkedIn, Microsoft themselves, and Bloomberg, are examples brought up regularly. The world outside these giant organizations have benefited from this multiple time. But there is also a reality that the context and needs of these organizations may simply not be the same as the one of the rest of the world. The maintainer of a FOSS fundamental library, which is a 30-year-old codebase, with a few hours per week maximum to spend on it, has fairly different needs from the member of the Start Menu team at Microsoft.
+On the other hand, you have larger organizations that invested heavily in their
+developer tooling. Google, Facebook, LinkedIn, Microsoft themselves, and
+Bloomberg, are examples brought up regularly. The world outside these giant
+organizations have benefited from this multiple time. But there is also a
+reality that the context and needs of these organizations may simply not be the
+same as the one of the rest of the world. The maintainer of a FOSS fundamental
+library, which is a 30-year-old codebase, with a few hours per week maximum to
+spend on it, has fairly different needs from the member of the Start Menu team
+at Microsoft.
 
-There are also some enthusiasts, that tend to write tools that they _think_ should exist in the world. These are usually adjacent to real user needs in terms of DX, but written more to fix the problems imagined by the author than properly researched and designed tools. This is how most of the programming languages of the past few decades came to be. PHP, Perl, Python, Ruby, Elixir, Go, C, C++... These are all great programming languages, written first to fit the wants of their author, to fill the platonic form of a perfect language the author imagined. Only after they found success have they slowly been learning about user needs. Under growing pressure to fit better the needs of their users, they tend over time to adapt some of their principles to fit better DX. This process is usually limited, as the fundamental shape of the tool limits its ability to implement the solution needed without extensive and potentially compatibility-breaking changes.[^5]
+There are also some enthusiasts that tend to write tools that they _think_
+should exist in the world. These are usually adjacent to real user needs in
+terms of DX, but written more to fix the problems imagined by the author than
+properly researched and designed tools. This is how most of the programming
+languages of the past few decades came to be. PHP, Perl, Python, Ruby, Elixir,
+Go, C, C++... These are all great programming languages, written first to fit
+the wants of their author, to fill the platonic form of a perfect language the
+author imagined. Only after they found success have they slowly been learning
+about user needs. Under growing pressure to fit better the needs of their users,
+they tend over time to adapt some of their principles to fit better DX. This
+process is usually limited, as the fundamental shape of the tool limits its
+ability to implement the solution needed without extensive and potentially
+compatibility-breaking changes.[^5]
 
-The impact of this landscape is that even if some organizations had the money to invest into better DX for the FOSS maintainer and could accept to wait for a few years to see a return on investment... There is a knowledge and skill gap. For the past 30 years, the only people that developed that skill were in extreme niches, already flooded with demand and work in their chosen domain, or working in a context that does not match the needs of the general developer population. The industry of developer tooling for small organizations, small teams, and FOSS does not exist. This means that the techniques needed to conduct user research, define needs and requirements, port an academic prototype and ideas to a usable tool, and then iterate on it with users feedback need to be rediscovered every time one of these projects manages to happen. There is a really limited amount of institutional knowledge about these.
+The impact of this landscape is that even if some organizations had the money to
+invest into better DX for the FOSS maintainer and could accept to wait for a few
+years to see a return on investment... There is a knowledge and skill gap. For
+the past 30 years, the only people that developed that skill were in extreme
+niches, already flooded with demand and work in their chosen domain, or working
+in a context that does not match the needs of the general developer population.
+The industry of developer tooling for small organizations, small teams, and FOSS
+does not exist. This means that the techniques needed to conduct user research,
+define needs and requirements, port an academic prototype and ideas to a usable
+tool, and then iterate on it with users feedback need to be rediscovered every
+time one of these projects manages to happen. There is a really limited amount
+of institutional knowledge about these.
 
-And this brings the last aspect of the economics of developer tooling. When time and money are already limited, the skills available are also limited, compounding the two other elements. Acquiring these skills is of course possible, but it needs time and as such money, to ensure the stability of this career choice for the individuals that do the work. This makes the ticket of entry into impacting the field higher for anyone wanting to invest. The upside makes it a compelling business case. But it will take years, if not a decade, to see them realized. The bets are still low, but less than expected. And the time for them to pay off, or possibly fail, is now far longer. This makes it harder to launch projects, making the career even riskier and less attractive, reducing the amount of skill... which lengthens the time needed for a project to get launched, as the skill set needs to be re-discovered and learned, but also raising the cost of hiring the rare few with the knowledge.
-
+And this brings the last aspect of the economics of developer tooling. When time
+and money are already limited, the skills available are also limited,
+compounding the two other elements. Acquiring these skills is of course
+possible, but it needs time and as such money, to ensure the stability of this
+career choice for the individuals that do the work. This makes the ticket of
+entry into impacting the field higher for anyone wanting to invest. The upside
+makes it a compelling business case. But it will take years, if not a decade, to
+see them realized. The bets are still low, but less than expected. And the time
+for them to pay off, or possibly fail, is now far longer. This makes it harder
+to launch projects, making the career even riskier and less attractive, reducing
+the amount of skill... which lengthens the time needed for a project to get
+launched, as the skill set needs to be re-discovered and learned, but also
+raising the cost of hiring the rare few with the knowledge.
 
 ## The Cynical Conclusion
 
-And such are the economics of Developer Toolings. A field with a lot of ideas researched and prototyped, low cost of start, long time to return on investment, high upside but hard to commercialize, and lack of institutional knowledge and engineer resources, where the skill set is usually only adapted to niche, far from the vast majority of the needs. Does it still make economic sense to invest in this domain? Yes, the upside would be massive. But the financial instruments adapted to this particular set of conditions seem to be lacking. Neither commercial, non-profit, philanthropic, or governmental organizations have found a sustainable way to contribute after the prototype phase. The only exception seems to be some massive organization, which can justify the investment on their internal cost reduction alone.
+And such are the economics of Developer Toolings. A field with a lot of ideas
+researched and prototyped, low cost of start, long time to return on investment,
+high collective upside but hard to commercialize, and lack of institutional
+knowledge and engineer resources, where the skill set is usually only adapted to
+niche, far from the vast majority of the needs. Does it still make economic
+sense to invest in this domain? Yes, the upside would be massive. But the
+financial instruments adapted to this particular set of conditions seem to be
+lacking. Neither commercial, non-profit, philanthropic, or governmental
+organizations have found a sustainable way to contribute after the prototype
+phase. The only exception seems to be some massive organization, which can
+justify the investment on their internal cost reduction alone.
 
 ------------
 
-[^1]: Estimates state that EU-based companies already invested around [€1 billion in OSS in 2018, impacting the European economy to the tune of €65-95 billion.](https://de.statista.com/statistik/daten/studie/1178441/umfrage/umfrage-zum-einsatzvon-open-source-software-in-deutschen-unternehmen-nach-branchen/)
+[^1]: Estimates state that EU-based companies already invested around [€1
+    billion in OSS in 2018, impacting the European economy to the tune of €65-95
+    billion.](https://de.statista.com/statistik/daten/studie/1178441/umfrage/umfrage-zum-einsatzvon-open-source-software-in-deutschen-unternehmen-nach-branchen/)
 
-[^2]: This can be seen as the reverse of the [Sam Vimes "Boots" theory of socioeconomic unfairness](https://en.wikipedia.org/wiki/Boots_theory). GNU Terry Pratchett.
+[^2]: This can be seen as the reverse of the [Sam Vimes "Boots" theory of
+    socioeconomic unfairness](https://en.wikipedia.org/wiki/Boots_theory). GNU
+    Terry Pratchett.
 
-[^3]: My estimate for the total cost of the Rust team at Mozilla until 2018 is under 10 Millions USD over 10 years. I expect that my estimate is overpadded here, in typical pessimistic engineer fashion. The real cost was probably far under that, but it is a good high estimation.
+[^3]: My estimate for the total cost of the Rust team at Mozilla until 2018 is
+    under 10 Millions USD over 10 years. I expect that my estimate is overpadded
+    here, in typical pessimistic engineer fashion. The real cost was probably
+    far under that, but it is a good high estimation.
 
-[^4]: Some obvious name come to mind like Yehuda Katz, the Rust community, the diverse people maintaining package managers and repositories, etc.
+[^4]: Some obvious name come to mind like Yehuda Katz, the Rust community, the
+    diverse people maintaining package managers and repositories, etc.
 
-[^5]: Examples of these and how painful they can be are numerous. Python 2 to Python 3 changes to the string syntax and semantics, Ruby expansion to Fibers and types, PHP acquiring an AST in version 7, Golang acquiring modules and generics.
+[^5]: Examples of these and how painful they can be are numerous. Python 2 to
+    Python 3 changes to the string syntax and semantics, Ruby expansion to
+    Fibers and types, PHP acquiring an AST in version 7, Golang acquiring
+    modules and generics.
