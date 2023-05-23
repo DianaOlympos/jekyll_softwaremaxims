@@ -2,7 +2,7 @@
 title: The Economics of Developer Tooling
 ---
 It would be a major boon to software velocity, maintenance burden and safety to
-bring moreMore attention to developer tooling, in particular bringing to
+bring more attention to developer tooling, in particular bringing to
 everyone’s toolkit the techniques and technologies developed since the 80s but
 that was never mainstreamed. It is at least what I advocated for in [We Need
 More Process Engineering in Software](/blog/process-engineering-software). Over
