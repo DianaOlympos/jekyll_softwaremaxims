@@ -14,6 +14,8 @@ how corporations do not understand their place in the FOSS ecosystem.
 
 ## About Security Tokens
 
+![My yubikey, getting old and soon retired. Beaten up really.](../assets/img/20230528_yubikey.jpg)
+
 This is my yubikey. It is... not new. I bought it in 2016, 7 years ago, nearly
 to this day. I bought it to secure... I do not remember, but I think I wanted to
 secure my password manager at the time. And probably my email. I bought it
