@@ -28,6 +28,7 @@ url: "https://softwaremaxims.com" # the base hostname & protocol for your site, 
 twitter:
   username: Di4naO
   card: summary
+logo: "/favicon.png"
 github_username: DianaOlympos
 
 defaults:
