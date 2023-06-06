@@ -1,5 +1,5 @@
 ---
-title: Remove Constraints Instead Of Saying What Good Looks Like
+title: Remove Constraints To Get Results
 ---
 We look at the world and make decisions for our actions through models.
 Depending on the context, some models will be more fruitful to apply than
