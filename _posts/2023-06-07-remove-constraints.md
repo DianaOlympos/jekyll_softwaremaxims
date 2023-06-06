@@ -1,7 +1,6 @@
 ---
 title: Remove Constraints Instead Of Saying What Good Looks Like
 ---
-
 We look at the world and make decisions for our actions through models.
 Depending on the context, some models will be more fruitful to apply than
 others. There is a model that I have found tremendously helpful, in particular,
@@ -9,6 +8,7 @@ when discussing "open source supply chain" but also more regularly as an SRE. I
 dub this model Goals/Capability/Constraints. It evaluates action far differently
 than most models applied to these domains. The main recommendation it nearly
 always offers is to "remove constraints".
+<!--more-->
 
 While this is sometimes hard to do, it has the advantage of being particularly
 emphatic to the needs of the people that do the work. It also has the
