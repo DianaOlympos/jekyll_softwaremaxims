@@ -1,193 +1,191 @@
 ---
-title: Remove Constraints Instead Of Saying What Good Look Like
+title: Remove Constraints Instead Of Saying What Good Looks Like
 ---
 
-We look at the world and take decision for our actions through models. Depending
-on the context, some model will be more fruitful to apply than others. There is
-a model that I have found tremendously useful, in particular when discussion
-"open source supply chain" but also more regularly as a SRE. I dub this model
-"Goals/Capability/Constraints". It tends to evaluate action far differently than
-most of the other model I have seen applied to these domains. The main
-recommendation it nearly always give is to "remove constraints".
+We look at the world and make decisions for our actions through models.
+Depending on the context, some models will be more fruitful to apply than
+others. There is a model that I have found tremendously helpful, in particular,
+when discussing "open source supply chain" but also more regularly as an SRE. I
+dub this model Goals/Capability/Constraints. It evaluates action far differently
+than most models applied to these domains. The main recommendation it nearly
+always offers is to "remove constraints".
 
 While this is sometimes hard to do, it has the advantage of being particularly
-emphatic to the needs of the people that actually do the work. It also has the
-inconvenient to mostly point out that your great ideas are not going to help.
-This means that it tends to be neglected, as it is far easier to feel right but
-be wrong than accept we were wrong.
+emphatic to the needs of the people that do the work. It also has the
+inconvenience of pointing out that most of our great ideas will not help. These
+characteristics mean this model tends to be neglected, as it is far easier to
+feel right but be wrong than accept we were wrong.
 
 ## All Models Are Wrong
 
-If you listen to the thought leadership around safety, infosec or even
-management, you tend to get offered two levers of actions. Changing the
-Incentives, making some actions more or less rewarded, and adding regulations or
-control, which translate to punishing people and organizations that do the thing
-you do not want to do. If you are lucky, you will be offered a third option to
-"show what good look like", also known as "aligning on objectives".
+If you listen to the thought leadership around Safety, infosec, or even
+management, you tend to get offered two action levers. Changing the Incentives,
+making some actions more or less rewarded. And adding regulations or control
+translates to punishment for people and organizations that do The Bad Thing. If
+you are lucky, "showing what good looks like" will be offered as a third option.
+It is also known as "aligning on objectives".
 
-Equipped with your trio of tools, you can now modify complex social systems in
-order to achieve your goal of making "bad" outcomes happen far less. It is a
-particularly useful trifecta of tools if you think that the humans in your
-systems are taking bad decisions. After all, if they take bad decisions, all you
-need is reward the good decisions, punish the bad decisions and make sure
-everyone know what is good and bad. Easy peasy, we can wrap that one up and be
-home before tea time.
+Equipped with your trio of tools, you can now modify complex social systems to
+make "bad" outcomes happen far less. It is a particularly useful trifecta of
+tools if you think that the humans in your systems are making bad decisions.
+After all, if they make bad decisions, all you need is to reward the good,
+punish the bad, and ensure everyone knows what is good and bad. Easy peasy, we
+can wrap that up and be home before tea time.
 
-In this model, decision making is basically a "spherical cow". If we have a
-human having to take a decisions, they float freely in the space of all the
-possible choice they can make. And they will pick the most rewarded path,
-avoiding the punished one, while trying to do the "right thing", which we
-explained to them.
+In this model, decision-making is a spherical cow. A human - having to make a
+decision- float freely in the space of all possible choices they can make. And
+they will pick the most rewarded path, avoiding the punished one while trying to
+do the "right thing", which we explained to them.
 
-Well, the problem of course is that despite doing this all the time, people keep
-taking bad decisions. They keep shipping insecure software. Using all the
-dependencies. Not vetting all their software dependencies. The FOSS maintainers
-keep refusing to cryptographically sign all their commits. They keep not doing
-crypto right. They keep refusing to use memory safe languages. Really, it seems
-that despite us trying to be really nice, explaining it all, and also punishing
-them if they do the wrong thing ... they keep stubornly doing the "wrong thing".
-Maybe they are just impossible to fix. Maybe it is time to bring the regulators.
-Let's double down and up the ante. Or maybe... maybe it is just not right?
+Well, despite doing this all the time, people keep making bad decisions. People
+seem to be quite the problem. They keep shipping insecure software. Using all
+the dependencies. Not vetting all their software dependencies. The FOSS
+maintainers keep refusing to sign all their commits cryptographically. They keep
+not doing crypto right. They keep refusing to use memory-safe languages. It
+seems that despite us trying to be nice, explaining it all, and punishing them
+if they do the wrong thing ... they keep stubbornly doing the Wrong Thing. Maybe
+they are just impossible to fix. Perhaps it is time to bring the regulators.
+Let's double down and up the ante. Or maybe. Just maybe. Maybe it is just not
+right.
 
-If a model fail to deliver, it may be because it is not adapted to the problem
-at hand. That is not to say it is never right or useful, but maybe right now it
-does not apply really well. I think the "Incentives/Punishement/Goals" model is
-definitely in that situation here. Despite all our tentative to apply it, we
-keep getting the system and results from before it. That is usually a telltale
-of using the wrong model.
+If a model fails to deliver, it may be because it is not adapted to the problem.
+That is not to say it is never suitable, but it does not apply well right now. I
+think the "Incentives/Punishment/Goals" model is definitely in that situation.
+Despite all our tentative to apply it, we keep getting the system and results
+from before it. That is usually a telltale of using the wrong model.
 
 ## Some Models Are Useful
 
 The "Goals/Capabilities/Constraints" is slightly different. It is still a model
-that analyse how people make decisions. It starts with where the decision maker
-is today, in the present. Then we look at what Goals we want to achieve. This
-represent where we want to be in the future. Once we know where we are now, and
-where we want to be then, in the future, we move to how to get there.
+that analyses how people make decisions. It starts with where the decision maker
+is today, in the present. Then we look at what Goals we want to achieve. Goals
+represent where we want to be in the future. Once we know where we are now and
+where we want to be, then, in the future, we move to how to get there.
 
-Capabilities are the tools, knowledge, skillset and ressources we have access
+Capabilities are the tools, knowledge, skillset, and resources we have access
 to. These define the possible paths toward our goals. Their combinations,
-through time, give us all the different branching trees of possible path from
+through time, give us all the different branching trees of possible routes from
 here and now to there in the future. These paths start now, and every choice we
-will make branch off, until at some point we reach the Goals we want. That makes
-a lot of branch, so let see how we make a choice, by pruning some of them.
+will make branches off until, at some point, we reach the Goals we want. That makes
+a lot of branches, so let's see how we choose by pruning some of them.
 
-Constraints are all the things that limit our choices. This is the realm of
-ethics, regulations, laws, punishments, cultural norms, but also time
-constraints, ressources limitations, burn out, bankruptcy or budgets. Anything
-that could make us choose to not take a path we are _capable_ of taking but
-cannot accept to take. Constraints are applied to the tree of path generated by
-Capabilities to reach Goals, and prune these paths. The end result offer a far
-smaller set of paths.
+Constraints are all the things that limit our choices. Constraints are the realm
+of ethics, regulations, laws, punishments, cultural norms, time constraints,
+resource limitations, burnout, bankruptcy, or budgets. Anything that could make
+us choose not to take a path we are _capable_ of taking but cannot accept to
+take. Constraints are applied to the tree of paths generated by Capabilities to
+reach Goals and prune these paths. The end result offers a far smaller set of
+routes.
 
 Where the previous model considered that you have to push and prod the decision
-maker, this model consider that the decision maker choices are defined by what
-they have available and are then refined through the limitations they have to
-deal with. This is a model built on frustration.
+maker, this model believes that the person's choices are defined by what they
+have available. These choices are then refined through the limitations they have
+to deal with. The Goals/Capabilities/Constraints model is built on frustration.
 
 ## When There Are No Way Out
 
-But the frustration get worse. Because it can happen that the set of constraints
-is so large and imposing that after pruning by Constraints ... there are no path
-left toward the Goals with our Capabilities. The Constraints are too numeroux
-and too strict, while our Capabilities are too limited, to reach our Goal. Well,
-that is frustrating.
+But the frustration gets worse. Because the set of Constraints could be so large
+that after pruning by Constraints, there are no paths left toward the Goals with
+our Capabilities. The Constraints are too numerous and strict, while our
+Capabilities are too limited to reach our Goal. Well, that is frustrating.
 
-Things get worse. See, as far as research on Safety tell us, this set of no path
-forward due to over constraints is pretty universally the default state for
-workers. Every day normal work in these situations, which are ubiquituous, means
-having no acceptable path forward. So what do you do when you end up in this
-situation? Well, it is simple right? You break the rules! You usually do not
-constrol all the goals (after all if you are employed, you do not set them), and
-your capabilities are usually relatively static.
+Things get worse. See, as far as research on Safety tells us, this situation,
+with no path forward due to over-constraints, is pretty universally the default
+state for workers. Everyday regular work in these situations means having no
+good path forward. And these situations are ubiquitous. So what do you do when
+you end up in this situation? Well, it is simple, right? You break the rules!
+You usually do not control all the goals (after all, if you are employed, you do
+not set them), and your capabilities are generally relatively static.
 
-When everything else is fixed, it seems the only thing that can change is
-constraints. That is what we means by tradeoff. If we want workers to reach this
-goals with the tools and ressources they have, well they will have to not
-respect some of the constraints. Vetting all 3rd party dependencies? Yeah no.
-Signing my commits? Noone cares, not an important constraint. Working code? That
-one I cannot ignore, otherwise we cannot reach the goal. Having CI? Non
-essential. A reproducible build? Let's try to be able to build it all first Jan,
-and then maybe one day sure.
+Constraints seem to be the only thing that can change when everything else is
+fixed. That is what we mean by a trade-off. If we want workers to reach these
+goals with the tools and resources they have, they will have to not respect some
+of the constraints fully. Vetting all 3rd party dependencies? Yeah no. Signing
+my commits? No one cares; not a significant constraint. Working code? That one I
+cannot ignore; otherwise, we cannot reach the goal. Having CI? Non-essential. A
+reproducible build? Let's try to be able to build it all first Jan, and then
+maybe one day, sure.
 
 This is the reality of working at the "sharp edge". This is where every action
 is a balancing act, trying to stay at the edge of what is acceptable, breaking
 the rules just in the ways that will be enough to achieve goals without getting
-too much into the unstability that wait for you if you go too far into trading
-off constratins for results.
+too much into the instability that awaits you if you go too far into trading
+off constraints for results.
 
 ## Changing Things For The Better
 
 So, if we use this model to explain our systems work today, how can we use it to
-try to change how they will work tomorrow. We will take for granted that right
-now, at best, the combination of Capabilities and Constraints gives us or no
-path toward our Goals, or a really narrow path. If we take this for granted,
-then we have four different levers. We could convince people to want a different
-goal. Low chance of impact in outcome though, because the constratins will
-probably limit the paths as much. We could provide new Capabilities, but that is
+try to change how they will work tomorrow? We will take for granted that right
+now, at best, the combination of Capabilities and Constraints gives us no path
+toward our Goals or a narrow path. If we take this for granted, then we have
+four different levers. We could convince people to want another goal. However,
+there is a low chance of impact on the outcome because the constraints will
+probably limit the paths as much. We could provide new capabilities, but that is
 usually complicated or too expensive to consider. We could add more Constraints,
-like adding regulations, but if the problem is already over constrained, adding
-more will have no effects, other than forcing the workers to break more of the
-Constratins just to get things done.
+like adding regulations, but if the problem is already over-constrained, adding
+more will have no effects other than forcing the workers to break more of the
+constraints just to get things done.
 
-Or we could remove some constraints. This may not open the possible paths this
-much, but at the very least it would open space for different tradeoffs. After
-the constraints are removed or lossened, we can trade off the newly opened space
-to find a new path fowrward, that may break less of the Constraints we had.
+Or we could remove some constraints. This removal may not open a lot of new
+possible paths, but at the very least, it would open space for different
+trade-offs. After the constraints are removed or loosened; we can trade off the
+newly opened space to find a new path forward that may break less of the
+Constraints we had.
 
-As an example, if we have heavy ressources constraints, like a couple hours of
-work per week, then any project that need sustained attention and memory for
-dozens of hours is not possible. Dozens of hours would take us a dozen of weeks
-to reach. By that point, it is doubtful that we would have maintained sustained
-attention for that long time, with a lot of interuptions and unrelated work in
-between. We are pretty far from Flow-State. As such, this path will never be
-considered. If this is the only one possible to get rid of a legacy, unsafe,
-behaviour in our software, we will simply mark the behaviour as deprecated but
-never do the work to actually get rid of it. Not because we do not want to get
-rid of it, or that we do not prioritize it. But simply because we _cannot do
-it_. We are too constrained. So we traded off the security constraints.[^1]
+For example, if we have heavy resource constraints, like a couple of hours of
+work per week, then any project that needs sustained attention and memory for
+dozens of hours is impossible. Dozens of hours would take us a dozen weeks to
+reach. By that point, it is doubtful that we would have maintained sustained
+attention for that long time, with many interruptions and unrelated work in
+between. We are pretty far from Flow-State. As such, the worker will never
+consider this option. Suppose this is the only possibility to get rid of a
+legacy, unsafe behavior in our software. In that case, we will simply mark the
+behavior as deprecated but never do the work to get rid of it. Not because we do
+not want to get rid of it or do not prioritize it. But simply because we _cannot
+do it_. We are too constrained. So we traded off the security constraints.[^1]
 
-We could attack the constraint on two aspects. First we could find a way to work
-multiple hours per day on this project. This would reduce the duration of the
-implementation to a few days, which would allows deep attention and memory. We
-could also introduce new tools and techniques, which would allows to reduce the
-duration of the attention needed. Intermediate states. Tools and languages that
-would support doing the work faster. Anything that can reduce the constraints
-imposed on the worker would change the trade offs. And at some point, if we
-reduce the constraints enough, then the worker can actually get rid of the
-unsafe behaviour.
+We could attack the constraint in two aspects. First, we could find a way to
+work multiple hours per day on this project. This would reduce the
+implementation duration to a few days, allowing serious attention and memory. We
+could also introduce new tools and techniques, allowing us to reduce the period
+of engagement needed. Intermediate states. Tools and languages that would
+support doing the work faster. Anything that can reduce the constraints imposed
+on the worker would change the trade-offs. And at some point, if we reduce the
+Constraints enough, the worker can eliminate the unsafe behavior.
 
 ## If You Are Not Reducing Constraints, Stop And Reevaluate
 
 So what have we learned? That a model of Goals/Capabilities/Constraints can
-explain how workers take decisions that may seem "wrong" from the outside. In
-this case, the model tell us that the situation had so many constraints that the
-worker had to trade off some of the goals and constraints in order to achieve a
-partial success. If we want workers in these kind of situation to achieve "good"
-outcomes, we have four levers.
+explain how workers make decisions that may seem "wrong" from the outside. In
+this case, the model tells us that the situation had so many constraints that
+the worker had to trade off some of the goals and constraints to achieve partial
+success. If we want workers in these situations to achieve "good." outcomes, we
+have four levers.
 
-1. Change goals, which is usually hard to achieve and necessitate a lot of persuasion
+1. Change goals, which are usually hard to achieve and necessitate a lot of convincing
 2. Provide new Capabilities, which is usually complicated as it means training people
 3. Add new Constraints, which will be traded off, as there was already no
-   succesful path to a "good" outcome. Reducing the options hardly helps.
-4. Remove Constraints, allowing path to "good" outcomes to become possible, and
-   as such used.
+   successful path to a "good" outcome. Reducing the options does not help that
+   much, does it?
+4. Remove Constraints, allowing a path to "good" outcomes to become possible and
+   , as such, used.
 
-We can classify all actions we would take to influence the outcome "for the
-better" under these four categories. I will let to the reader the exercice to
-map their organisation action plan to reduce "bad" outcomes into these
-categories. If you do it, I would be interested to know how the distribution of
-actions into categories look like for you. I can give you a bet though. I bet
+We can classify all actions to influence the outcome "for the
+better" under these four categories. I will let the reader the exercise to
+map their organization's action plan to reduce "bad" outcomes into these
+categories. If you do it, I would be interested to know what the distribution of
+actions into categories looks like for you. I can give you a bet, though. I bet
 the fourth category is nearly empty for all of my readers.
 
 We seldom offer actions that remove Constraints. And yet, this is the most
-impactful, if not the only impactful, of the category of actions we described
+impactful, if not the only, of the category of actions we described
 today, based on this Goals/Capabilities/Constraints model. So here is my plea.
 If you imagine an action to make the system better. Please try to see which of
-the four category it correspond to. And if it is not a fourth category action,
-consider not doing it. Why not try to spend all your energy and time into doing
-the most effective and impactful actions? Remove Constraints instead.
+the four categories it corresponds to. And if it is not a fourth-category action,
+consider not doing it. Why not try to spend all your energy and time doing
+the most effective and impactful activities? Remove Constraints instead.
 
 ---------
 
-[^1]: Any similarity to actual events, particularly to certain java libraries,
+[^1]: Any similarity to actual events, particularly to specific Java libraries,
     are allegedly fortuitous.
