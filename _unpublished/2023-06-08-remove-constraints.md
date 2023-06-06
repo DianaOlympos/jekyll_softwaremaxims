@@ -130,6 +130,64 @@ more will have no effects, other than forcing the workers to break more of the
 Constratins just to get things done.
 
 Or we could remove some constraints. This may not open the possible paths this
-much, but at the very least it would open space for different tradeoffs. As now,
-we can trade off the newly eliminated constraint space to find a new path
-fowrward, that may break less of the Constraints we had.
+much, but at the very least it would open space for different tradeoffs. After
+the constraints are removed or lossened, we can trade off the newly opened space
+to find a new path fowrward, that may break less of the Constraints we had.
+
+As an example, if we have heavy ressources constraints, like a couple hours of
+work per week, then any project that need sustained attention and memory for
+dozens of hours is not possible. Dozens of hours would take us a dozen of weeks
+to reach. By that point, it is doubtful that we would have maintained sustained
+attention for that long time, with a lot of interuptions and unrelated work in
+between. We are pretty far from Flow-State. As such, this path will never be
+considered. If this is the only one possible to get rid of a legacy, unsafe,
+behaviour in our software, we will simply mark the behaviour as deprecated but
+never do the work to actually get rid of it. Not because we do not want to get
+rid of it, or that we do not prioritize it. But simply because we _cannot do
+it_. We are too constrained. So we traded off the security constraints.[^1]
+
+We could attack the constraint on two aspects. First we could find a way to work
+multiple hours per day on this project. This would reduce the duration of the
+implementation to a few days, which would allows deep attention and memory. We
+could also introduce new tools and techniques, which would allows to reduce the
+duration of the attention needed. Intermediate states. Tools and languages that
+would support doing the work faster. Anything that can reduce the constraints
+imposed on the worker would change the trade offs. And at some point, if we
+reduce the constraints enough, then the worker can actually get rid of the
+unsafe behaviour.
+
+## If You Are Not Reducing Constraints, Stop And Reevaluate
+
+So what have we learned? That a model of Goals/Capabilities/Constraints can
+explain how workers take decisions that may seem "wrong" from the outside. In
+this case, the model tell us that the situation had so many constraints that the
+worker had to trade off some of the goals and constraints in order to achieve a
+partial success. If we want workers in these kind of situation to achieve "good"
+outcomes, we have four levers.
+
+1. Change goals, which is usually hard to achieve and necessitate a lot of persuasion
+2. Provide new Capabilities, which is usually complicated as it means training people
+3. Add new Constraints, which will be traded off, as there was already no
+   succesful path to a "good" outcome. Reducing the options hardly helps.
+4. Remove Constraints, allowing path to "good" outcomes to become possible, and
+   as such used.
+
+We can classify all actions we would take to influence the outcome "for the
+better" under these four categories. I will let to the reader the exercice to
+map their organisation action plan to reduce "bad" outcomes into these
+categories. If you do it, I would be interested to know how the distribution of
+actions into categories look like for you. I can give you a bet though. I bet
+the fourth category is nearly empty for all of my readers.
+
+We seldom offer actions that remove Constraints. And yet, this is the most
+impactful, if not the only impactful, of the category of actions we described
+today, based on this Goals/Capabilities/Constraints model. So here is my plea.
+If you imagine an action to make the system better. Please try to see which of
+the four category it correspond to. And if it is not a fourth category action,
+consider not doing it. Why not try to spend all your energy and time into doing
+the most effective and impactful actions? Remove Constraints instead.
+
+---------
+
+[^1]: Any similarity to actual events, particularly to certain java libraries,
+    are allegedly fortuitous.
