@@ -2,7 +2,7 @@
 
 with pkgs;
 let
-  node = nodejs-19_x;
+  node = nodejs_20;
   ruby = ruby_3_1;
 
 in mkShell {
