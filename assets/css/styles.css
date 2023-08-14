@@ -146,7 +146,7 @@
   }
 
   .blogpost {
-    @apply flex flex-col flex-nowrap justify-center mx-auto text-black pb-3 bg-white border-4 border-black rounded-lg items-center mt-2 px-5;
+    @apply flex flex-col flex-nowrap justify-center mx-auto text-black pb-3 bg-white border-4 border-black rounded-lg items-center mt-2 md:px-5 px-2;
     max-width: 60rem;
 
 
