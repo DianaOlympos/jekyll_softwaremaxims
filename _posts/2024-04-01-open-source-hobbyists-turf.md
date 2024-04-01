@@ -98,11 +98,12 @@ you post and shake their heads. Before going back trying to keep everyone's
 machine still running after Apple botched another release of their filesystem. Or of
 Autoconf.
 
-You are on my turf now. You all depend on what we do and how we do it. And you
+You are on our turf now. Hobbyists Maintainers' turf. My turf.You all depend on what
+we do and how we do it. And you
 need to internalize that you are not the natives here. So observe. Ask
 questions. And more importantly, please listen to us. If we tell you that you
 are spewing nonsense, if we do not react to what you offer, if we seem not to respect you,
-it is not because we are pricks. Not because we believe in shunning
+it is not because we are pricks. Not because we believe in shunning out
 outsiders.
 
 If we do not respect you, it is because you are showing your ass.
