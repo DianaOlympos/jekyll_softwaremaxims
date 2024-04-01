@@ -133,6 +133,11 @@ have 1 hour. Please don't waste this time. Who knows what the impact could be?
 
 ---------
 
+PS: This has been cooking in my head for the past three weeks. At least. This is
+not particularly linked to the XZ situation. And yet.
+
+---------
+
 [^1]: Do not do this at home; they are not the same thing and cannot be combined
     this way if you want to do proper work. However, it is not too bad for this kind of thought
     leadership piece, to get a rough idea of the whole field.
