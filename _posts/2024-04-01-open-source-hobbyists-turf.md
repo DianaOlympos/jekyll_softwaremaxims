@@ -141,6 +141,7 @@ not particularly linked to the XZ situation. And yet.
 [^1]: Do not do this at home; they are not the same thing and cannot be combined
     this way if you want to do proper work. However, it is not too bad for this kind of thought
     leadership piece, to get a rough idea of the whole field.
+
 [^2]: Beware, I am really conservative here. There is a huge possibility that
     the Tidelift report sample of responders is biased toward paid open-source
     maintainers, as it is their business. The same is true for Synopsys; their estimates are probably
