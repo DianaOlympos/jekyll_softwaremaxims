@@ -1,5 +1,5 @@
 ---
-title: You Are All On The Hobbyists Maintainer Turf Now
+title: You Are All On The Hobbyists Maintainers' Turf Now
 ---
 
 For quite some time, I have felt some unease at the public discourse around
