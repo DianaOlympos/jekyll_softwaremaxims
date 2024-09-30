@@ -39,6 +39,9 @@ where Chromium and Safari are the only players realistically, please come
 forward and explain your problem with it. Because this is quickly looking like
 you are hurting the whole Internet progress due to petty internal disputes.
 
+TODO: update the Safari situation, I think they shipped it. Plus Rust experiment
+ of Google helping FF
+
 ## CSS Scope
 
 I think [the proposal does a better
@@ -51,6 +54,8 @@ and CSS Modules to our CSS world. I want them yesterday pretty please.
 The proposal is pretty advanced from a standard point of view, but there is not
 yet any implementation by a vendor as far as I can tell. There are some
 performance concerns, but I think they are pretty limited. Please, vendors.
+
+TODO: update with the new merged standard by the CSSWG and iirc Safari shipping it
 
 ## Declarative Templates
 
@@ -99,17 +104,22 @@ behavior, just let us slot them in. I get that it is a lot of work, but please
 
 ## DOM Parts
 
-
+TODO: flesh it out, basically an API to efficiently update part of a DOM tree
 
 ## Fonts subsetting with named properties or set
 
 And better font tooling to subset with named sets and properties for the
 developers, at the CLI. And easier to explore Unicode properties
 
+Why? I show unicode text from my users, any users, but I do not want to ship a
+full unicode font on every load of the site (a few GB)
+
 ## Mixins
 
 This is why we use Tailwind. Make it work the same way the class rule work in
 HTML. That is enough for us. At least as a first implementation
+
+TODO: Update with the CSSWG proposal, finally. <3
 
 ## Cascade Layers expansion (link support)
 
@@ -118,7 +128,13 @@ https://github.com/whatwg/html/issues/7540
 Make it efficient by supporting it in the `link` elements, so that it can be
 loaded fast, instead of depending on `@import`
 
+TODO: I think this is partially shipped in the CSSWG standard, need to check
+
 ## Get the maths functions out of WD
+
+they are now mostly implemented and if they are not, fuck the vendors.
+
+Make it official
 
 ## Fetch maps
 
@@ -141,7 +157,7 @@ I ask for a lot, and a lot of my demands are... far-ranging. I know. I also did
 not mention anything about color palette here, because I do not think have good
 solutions anywhere right now, and it is mostly a problem of tooling. I love the
 work on bringing different color spaces (display-p3, good job!), it is great,
-but the main problem from my point of view in there is to design easy-to-use
+but the main problem in there is to design easy-to-use
 palettes with great A11y in mind. And the CSS `contrast` will help a bit but not
 that much really. We have a bigger problem in defining color palettes
 systemically. The only approach I know about is from [Mineral UI a few years
@@ -166,6 +182,4 @@ Laravel, or anything else. Maybe you build Shopify shops or WordPress websites.
 Then consider weighing in. Consider bringing up your wishlist. Look at your
 workflow, look at what the JS world is doing, and consider what would help you.
 And ask for it. Talk about it. Make it known. The people working in the
-different WG need this kind of information and material to support their case. 
-
-For this, the two best stuff i know of are the old [Designing Systematics 
+different WG need this kind of information and material to support their case.
