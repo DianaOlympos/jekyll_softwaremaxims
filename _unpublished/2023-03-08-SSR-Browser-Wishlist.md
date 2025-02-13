@@ -144,6 +144,7 @@ discussions](https://discourse.wicg.io/t/proposal-fetch-maps/4259). Bring it
 back. Today. Please.
 
 TODO: add an example, with things like URLs in CSS, CSS modules, or images in HTML
+<https://github.com/mozilla/standards-positions/issues/1010>
 
 ## H and hgroup
 
