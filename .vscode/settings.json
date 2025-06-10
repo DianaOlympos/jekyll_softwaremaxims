@@ -1,3 +1,4 @@
 {
-  "workbench.colorTheme": "Community Material Theme Palenight High Contrast"
+  "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+  "workbench.settings.enableNaturalLanguageSearch": false
 }
