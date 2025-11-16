@@ -7,7 +7,7 @@ FOSS problems. They are mostly negative. I think that most of these schemes
 cannot achieve any meaningful impact. It seems that most of these
 disagreements come from the fact that I seem to work on different models of how
 FOSS work. Over the years, I have tried to share parts of my model. This is part
-of this endeavor.
+of this endeavor.<!--more-->
 
 ## Enforcing Cost Control
 
