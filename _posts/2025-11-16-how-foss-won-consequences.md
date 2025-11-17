@@ -40,7 +40,7 @@ look at an example.
 ## Cost Control in Action
 
 Let's say that I need to get a good Date Picker for our website. I got assigned
-a ticket to create a form in which I will need to use a "fancy" Data Picker
+a ticket to create a form in which I will need to use a "fancy" Date Picker
 experience. My corporation doesn't like FOSS, so I have to use a commercially
 licensed software. What would it look like to solve that ticket?
 
