@@ -91,18 +91,20 @@ or anything like that. You do not know anything about it. This is not the same
 world that you were part of. The complexity is off the chart; we are hidden
 layers and layers under the scaffolding. And we are used everywhere.
 
-So sit down. Learn. Shut up. Please stop trying to bring solutions, thinking you get it.
+So sit down. Learn. Shut up. Please stop trying to bring solutions, thinking you
+get it.
 You do not. If you did, you would not offer the thing you are. You would
 understand what I say here. You would be among the people who just read what
 you post and shake their heads. Before going back trying to keep everyone's
-machine still running after Apple botched another release of their filesystem. Or of
-Autoconf.
+machine still running after Apple botched another release of their filesystem.
+Or of Autoconf.
 
 You are on our turf now. Hobbyists Maintainers' turf. My turf.You all depend on what
 we do and how we do it. And you
 need to internalize that you are not the natives here. So observe. Ask
 questions. And more importantly, please listen to us. If we tell you that you
-are spewing nonsense, if we do not react to what you offer, if we seem not to respect you,
+are spewing nonsense, if we do not react to what you offer, if we seem not to
+respect you,
 it is not because we are pricks. Not because we believe in shunning out
 outsiders.
 
