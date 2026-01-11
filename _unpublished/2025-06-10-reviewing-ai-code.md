@@ -6,7 +6,7 @@ I am an LLM Coding Assistants skeptic. It is not because of IP laws problems
 (even if they are highly problematic), nor is it for ecological and ressource
 comsumptions reasons. It is not even for "they are all crap" reasons. My problem
 with LLM Coding Assistants is that I cannot see, in the face of the scientific
-evidence, how they can help someone write code better or faster.
+evidence, how they can help someone write code better or faster.<!--more-->
 
 And the thing that irritate me is that it seems that none of the proponents of
 LLM Coding Assistants seems to ever address this problem and this evidence when
