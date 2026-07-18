@@ -2,11 +2,12 @@
 title: Reviewing AI Code Is Not A Viable Argument
 ---
 
-I am an LLM Coding Assistants skeptic. It is not because of IP laws problems
-(even if they are highly problematic), nor is it for ecological and ressource
-comsumptions reasons. It is not even for "they are all crap" reasons. My problem
-with LLM Coding Assistants is that I cannot see, in the face of the scientific
-evidence, how they can help someone write code better or faster.<!--more-->
+I am a skeptic of the utility of LLM in software development. It is not because
+of IP laws problems (even if they are highly problematic), nor is it for
+ecological and ressource comsumptions reasons. It is not even for "they are all
+crap" reasons. My problem with LLM Coding Assistants is that I cannot see, in
+the face of the scientific evidence, how they can help someone write code better
+or faster.<!--more-->
 
 And the thing that irritate me is that it seems that none of the proponents of
 LLM Coding Assistants seems to ever address this problem and this evidence when
@@ -15,6 +16,12 @@ arguments everytime they write a rebuke of the skeptics. So let's look at what I
 have a problem with, how empirical scientific research support that view, how
 proponents of LLM Coding Assistants could show this is not a problem and then
 how right now they are doing the actual opposite.
+
+_Note: This piece was written nearly a year ago, hence why you may find
+vocabulary, like "Coding Assistants" that has been mostly replaced at this
+point. Sadly, I have not been able to find a term in the current vocabulary
+around genAI used to code that covers all the use case. So I kept the "Coding
+Assistants" wording._
 
 ## The Intern Problem
 
@@ -63,11 +70,10 @@ devil can be in the details.
 ## The Limits Of Reviews
 
 Without going into some philosophical depth of reviewing as a practice, there is
-a glaring problem in this idea. From all the research we have (and if I am
-motivated, you should see a lot of links to references in the next paragraphs),
-we have learned, empirically a few things about code reviews. And the evidence
-is relatively solid here, within reasonable limits. You will see that these do
-not matter there.
+a glaring problem in this idea. From all the research we have, we have learned,
+empirically a few things about code reviews. And the evidence is relatively
+solid here, within reasonable limits. You will see that these do not matter
+there.
 
 1. A review that last more than 1h is too long.
 2. A review that has to be effective cannot be more than 400LOC at a time, in
